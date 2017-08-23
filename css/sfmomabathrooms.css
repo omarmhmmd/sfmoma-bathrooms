@@ -93,7 +93,7 @@ a, a:visited, a:hover, a:active , a:focus{
 /******** MENU LIST ********/
 .list {
   position: relative;
-  font-family:  'markBlack';
+  font-family:  'markBook';
   font-style: normal;
   font-weight: normal;
   line-height: normal;
@@ -104,7 +104,7 @@ a, a:visited, a:hover, a:active , a:focus{
 }
 
 button {
-  font-family: 'markBlack';
+  font-family: 'markBook';
   border: none;
   text-decoration: none;
   background-color: black;
@@ -153,12 +153,11 @@ p {
 }
 
 .aboutParagraph {
+  width: 475px;
   display: none;
   background-color: none;
   color: white;
   position: absolute;
-  width: 500px;
-  height: 160px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -213,3 +212,45 @@ p {
   }
 }
 /******** END ANIMATIONS ********/
+
+/******** MEDIA QUERIES ********/
+@media only screen and (max-width: 480px) {
+  .broom {
+    font-size: 14vw;
+    top: 55%;
+  }
+
+  .aboutParagraph {
+    font-size: 3.5vw;
+    max-width: 325px;
+    top: 60%;
+  }
+
+  .logo {
+    top: 50%;
+    left: 60%;
+    font-size: 5em;
+    height: 250px;
+    width: 560px;
+  }
+
+  .sf {
+    position: absolute;
+    left: 60px;
+    top: 60px;
+  }
+
+  .mo {
+    position: absolute;
+    left: 180px;
+    top: 25px;
+  }
+
+  .ma {
+    position: absolute;
+    left: 290px;
+    top: 98px;
+    overflow: hidden;
+    z-index: -10;
+  }
+}

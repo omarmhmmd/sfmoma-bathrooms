@@ -4,11 +4,25 @@ var sideNavAnimation = 700;
 var sideNavEase = "easeInOutQuart";
 
 $(function() {
-    $('.sf').delay(delayTime).animate({ left: '-68%', top: '-20%', "font-size":"144"}, aniSpeed, 'easeInOutQuart');
-    $('.mo').delay(delayTime).animate({ left: '50%', top: '-115%', "font-size":"144"}, aniSpeed, 'easeInOutQuart');
-    $('.ma').delay(delayTime).animate({ left: '110%', top: '135%', "font-size":"144"}, aniSpeed, 'easeInOutQuart');
-    //$('.ma').delay(delayTime).animate({ left: '110%', top: '135%', color: '#ff0000', "font-size":"144"}, aniSpeed, 'swing');
-    $('.list').delay(3000).animate({ top: '88%'}, 1000, 'swing');
+
+    /******** MOBILE ********/
+    if($(window).width() < 481) {
+      console.log("phone");
+      //$('.broom').css('background-color', 'red');
+
+      $('.sf').delay(delayTime).animate({ top: '-45%', }, aniSpeed, 'easeInOutQuart');
+      $('.mo').delay(delayTime).animate({ top: '-60%', }, aniSpeed, 'easeInOutQuart');
+      $('.ma').delay(delayTime).animate({ top: '-31%', }, aniSpeed, 'easeInOutQuart');
+      $('.list').delay(1800).animate({ top: '88%'}, 1000, 'swing');
+    }
+
+    /******** DESKTOP ********/
+    else {
+      $('.sf').delay(delayTime).animate({ left: '-68%', top: '-20%', "font-size":"144"}, aniSpeed, 'easeInOutQuart');
+      $('.mo').delay(delayTime).animate({ left: '50%', top: '-115%', "font-size":"144"}, aniSpeed, 'easeInOutQuart');
+      $('.ma').delay(delayTime).animate({ left: '110%', top: '135%', "font-size":"144"}, aniSpeed, 'easeInOutQuart');
+      $('.list').delay(3000).animate({ top: '88%'}, 1000, 'swing');
+    }
 
     $(".aboutButton").click(function(){
       if($(".aboutParagraph").is(":visible")) {
@@ -39,6 +53,8 @@ $(function() {
      }
      $(this).toggleClass('elevatorActive');
   });
+  /******** END DESKTOP ********/
+
 
 });
 
