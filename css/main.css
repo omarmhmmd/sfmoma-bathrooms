@@ -1,0 +1,501 @@
+/****** CSS RESET **********/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*********** END RESET *************/
+
+/******* BODY *******/
+html,body {
+  background-color: black;
+  overflow: hidden;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:focus {
+  text-decoration: none;
+  color: white;
+}
+/******** END BODY ********/
+
+/******** FLOORS ********/
+section.green {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+section.pink {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  overflow: hidden;
+}
+
+section.blue {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 200%;
+  overflow: hidden;
+}
+
+section.purple {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 300%;
+  overflow: hidden;
+}
+
+section.black {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 400%;
+  overflow: hidden;
+}
+
+section.red {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 500%;
+  overflow: hidden;
+}
+
+section.white {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 600%;
+  overflow: hidden;
+}
+
+section.home {
+  height: 100%;
+  width: 100%;
+  top: 700%;
+  position: absolute;
+  overflow: hidden;
+}
+/******** END FLOORS ********/
+
+/**** NAV BAR *****/
+.sideNav {
+  position: fixed;
+  right:100%;
+  width: 50px;
+  height: 100vh;
+  background-color: black;
+  border-right: 1px solid #ffffff;
+  z-index: 10;
+}
+
+.sideNav ul {
+  padding-top: 6vh;
+}
+
+.sideNav li {
+  text-align: center;
+  padding-bottom: 9vh;
+  font-family: 'markBlack';
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 18px;
+  color: white;
+}
+
+a.green:hover, .activeGreen {
+  color: #00ff00;
+}
+a.pink:hover, .activePink {
+  color: #F45F8F;
+}
+
+a.blue:hover, .activeBlue {
+  color: #1493A3;
+}
+
+a.purple:hover, .activePurple {
+  color: #4C367C;
+}
+
+a.black:hover, .activeBlack {
+  color: #000000;
+  -webkit-text-stroke: 0.10px #ffffff;
+}
+
+a.red:hover, .activeRed  {
+  color: #ff0000;
+}
+
+a.white:hover, .activeWhite {
+  color: #fffdd0;
+}
+
+.glyphicon-home {
+  -webkit-animation: colorchange 25s infinite alternate;
+  -moz-animation: colorchange 25s infinite alternate;
+}
+
+.noPad {
+  padding-top: 0px !important;
+}
+/**** END NAV BAR *****/
+
+/**** CAROUSEL CUTSOMIZATION ****/
+.container {
+  visibility: hidden;
+  position: relative;
+  padding: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  float: right;
+  width: 40%;
+}
+
+.carousel-inner {
+  height: auto;
+  width: 100%;
+}
+
+carousel-control.left, .carousel-control.right {
+  background-image: none;
+  width:100%;
+}
+
+.carousel-indicators li {
+  height: 9px;
+  width: 9px;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  background-color: white;
+  opacity: 0.25 !important;
+}
+
+.carousel-indicators .active {
+  height: 11px;
+  width: 11px;
+  margin-left: 5px;
+  margin-bottom: 29px;
+  background-color: white;
+}
+/**** END CAROUSEL CUSTOMIZATION ****/
+
+/******* CONTENT *******/
+.level {
+  position: absolute;
+  width: 375px;
+  height: 122px;
+  left: 125px;
+  top: 20px;
+  font-family: 'markBlack';
+  line-height: normal;
+  font-size: 70px;
+  text-transform: capitalize;
+  color: black;
+}
+
+.floor {
+  position: fixed;
+}
+
+.floorColor {
+  text-transform: none;
+  font-size: 50px;
+  position: fixed;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+rect, circle, polygon {
+  transition: all 0.75s ease-out;
+}
+/******** END CONTENT ********/
+
+/******** SVG ANIMATIONS ********/
+  /******** GREEN FLOOR ********/
+  #globalGreenFloorplan {
+    position: absolute;
+    height:auto;
+    width: 40%;
+    top: 65%;
+    transform: translateY(-50%);
+    left: 11%;
+  }
+
+  #greenFloorplan {
+    visibility: hidden;
+    position: absolute;
+    height:auto;
+    width: 40%;
+    top: 65%;
+    transform: translateY(-50%);
+    left: 11%;
+  }
+
+  #greenSquare:hover {
+    fill:#00ff00;
+    cursor: pointer;
+  }
+
+  #greenCircle:hover {
+    fill:#00ff00;
+  }
+
+  #greenTriangle:hover {
+    fill:#00ff00;
+  }
+  /******** END GREEN FLOOR ********/
+
+  /******** PINK FLOOR ********/
+  #globalPinkFloorplan {
+    position: absolute;
+    height:auto;
+    width: 40%;
+    top: 65%;
+    transform: translateY(-50%);
+    left: 11%;
+  }
+
+  #pinkFloorplan {
+    visibility: hidden;
+    position: absolute;
+    height:auto;
+    width: 40%;
+    top: 65%;
+    transform: translateY(-50%);
+    left: 11%;
+  }
+
+  #pinkSquare:hover {
+    fill:#F45F8F;
+    cursor: pointer;
+  }
+
+  #pinkCircle:hover {
+    fill:#F45F8F;
+    cursor: pointer;
+  }
+
+  #pinkTriangle:hover {
+    fill:#F45F8F;
+  }
+  /******** END PINK FLOOR ********/
+
+  /******** BLUE FLOOR ********/
+  #globalBlueFloorplan {
+    position: absolute;
+    height:auto;
+    width: 40%;
+    top: 65%;
+    transform: translateY(-50%);
+    left: 10%;
+  }
+
+  #blueFloorplan {
+    visibility: hidden;
+    position: absolute;
+    height:auto;
+    width: 40%;
+    top: 65%;
+    transform: translateY(-50%);
+    left: 10%;
+  }
+
+  #blueSquare:hover {
+    fill:#1493A3;
+    cursor: pointer;
+  }
+
+  #blueCircle:hover {
+    fill:#1493A3;
+    cursor: pointer;
+  }
+
+  #blueTriangle:hover {
+    fill:#1493A3;
+  }
+  /******** END BLUE FLOOR ********/
+
+  /******** PURPLE FLOOR ********/
+  #globalPurpleFloorplan {
+    position: absolute;
+    height:auto;
+    width: 46%;
+    top: 57%;
+    transform: translateY(-50%);
+    left: 8%;
+  }
+
+  #purpleFloorplan {
+    visibility: hidden;
+    position: absolute;
+    height:auto;
+    width: 46%;
+    top: 57%;
+    transform: translateY(-50%);
+    left: 8%;
+  }
+
+  #purpleSquare:hover {
+    fill:#4C367C;
+    cursor: pointer;
+  }
+
+  #purpleCircle:hover {
+    fill:#4C367C;
+  }
+
+  #purpleTriangle:hover {
+    fill:#4C367C;
+  }
+  /******** END PURPLE FLOOR ********/
+
+  /******** BLACK FLOOR ********/
+  #globalBlackFloorplan {
+    position: absolute;
+    height:auto;
+    width: 44%;
+    top: 60%;
+    transform: translateY(-50%);
+    left: 10%;
+  }
+
+  #blackFloorplan {
+    visibility: hidden;
+    position: absolute;
+    height:auto;
+    width: 44%;
+    top: 60%;
+    transform: translateY(-50%);
+    left: 10%;
+  }
+
+  #blackSquare:hover {
+    fill:#ffffff;
+    cursor: pointer;
+  }
+
+  #blackCircle:hover {
+    fill:#ffffff;
+    cursor: pointer;
+  }
+
+  #blackTriangle:hover {
+    fill:#ffffff;
+  }
+  /******** END BLACK FLOOR ********/
+
+  /******** RED FLOOR ********/
+  #globalRedFloorplan {
+    position: absolute;
+    height:auto;
+    width: 44%;
+    top: 57%;
+    transform: translateY(-50%);
+    left: 10%;
+  }
+
+  #redFloorplan {
+    visibility: hidden;
+    position: absolute;
+    height:auto;
+    width: 44%;
+    top: 57%;
+    transform: translateY(-50%);
+    left: 10%;
+  }
+
+  #redSquare:hover {
+    fill:#ff0000;
+    cursor: pointer;
+  }
+
+  #redCircle:hover {
+    fill:#ff0000;
+    cursor: pointer;
+  }
+
+  #redTriangle:hover {
+    fill:#ff0000;
+  }
+  /******** END RED FLOOR ********/
+
+  /******** WHITE FLOOR ********/
+  #globalWhiteFloorplan {
+    position: absolute;
+    height:auto;
+    width: 46%;
+    top: 60%;
+    transform: translateY(-50%);
+    left: 8%;
+  }
+
+  #whiteFloorplan {
+    visibility: hidden;
+    position: absolute;
+    height:auto;
+    width: 46%;
+    top: 60%;
+    transform: translateY(-50%);
+    left: 8%;
+  }
+
+  #whiteSquare:hover {
+    fill:#fffdd0;
+    cursor: pointer;
+  }
+
+  #whiteCircle:hover {
+    fill:#fffdd0;
+    cursor: pointer;
+  }
+
+  #whiteTriangle:hover {
+    fill:#fffdd0;
+  }
+  /******** END WHITE FLOOR ********/
+/******** SVG ANIMATIONS ********/
+
+/******* END CONTENT *******/

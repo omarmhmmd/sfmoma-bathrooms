@@ -1,0 +1,81 @@
+<svg id="level003" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280.5 756"><title>003</title>
+  <polyline points="888.25 344.75 796.25 397.75 869.25 439.75 893.25 426.75 1122.25 554.75 1279.25 665.75 1126.25 754.75 835.25 586.75 779.25 622.75 723.25 587.75 713.25 593.75 685.25 578.75 750.25 538.75 677.25 495.75 591.25 545.75 523.25 505.75 453.25 545.75 520.25 584.75 347.25 684.75 1.25 484.75 242.25 345.75 166.25 300.75 483.25 116.75" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <line x1="106.9" y1="423.81" x2="153.75" y2="452.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <polyline points="173.3 385.52 243.75 427.25 252.75 421.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <line x1="241.43" y1="345.27" x2="312.75" y2="388.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <polyline points="242.25 345.75 329.75 295.25 282.75 267.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <polyline points="272.75 262.25 263.75 256.25 406.75 174.25 411.75 177.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <line x1="425.75" y1="187.25" x2="602.75" y2="289.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <polyline points="473.75 334.25 465.75 339.25 434.75 321.25 518.75 273.25 549.75 290.25 542.75 295.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <line x1="329.75" y1="295.25" x2="437.75" y2="358.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <polyline points="348.75 407.25 367.75 396.25 333.75 376.25 400.77 336.68" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <polyline points="417.75 404.25 384.75 423.25 454.75 464.25 484.75 448.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <polyline points="441.75 390.25 468.75 375.25 539.75 415.25 508.75 434.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <polyline points="100.75 513.25 208.75 450.25 333.75 450.25 410.75 495.25 410.75 567.25 349.75 603.25 147.75 486.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <line x1="237.75" y1="592.25" x2="284.03" y2="565.19" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <line x1="147.61" y1="569.35" x2="194.75" y2="542.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <line x1="278.56" y1="645.04" x2="326.75" y2="617.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <line x1="396.92" y1="656.04" x2="348.75" y2="628.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <line x1="437.75" y1="573.25" x2="468.97" y2="554.9" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <polyline points="484.75 486.25 504.75 474.25 539.75 494.25 607.75 455.25 568.75 432.25 607.75 455.25 678.85 496.68" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <path d="M892.5,396.5" transform="translate(-4.75 -51.25)" style="fill:none"/><path d="M489.5,167.5" transform="translate(-4.75 -51.25)" style="fill:none"/>
+  <polygon id="livingWall" points="887.75 345.25 481.75 117.25 481.75 1.25 887.75 229.25 887.75 345.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polyline points="713.75 485.25 678.75 464.25 795.75 398.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <line x1="754.75" y1="450.25" x2="846.75" y2="503.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <polyline points="841.75 454.25 751.75 505.25 869.75 573.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <polyline points="869.75 440.25 1027.75 531.25 908.75 599.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <line x1="898.75" y1="533.25" x2="941.75" y2="558.25" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <line x1="853.75" y1="539.25" x2="945.08" y2="483.64" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2.5px"/>
+  <path d="M692.5,630.5" transform="translate(-4.75 -51.25)" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <line x1="722.75" y1="587.25" x2="722.75" y2="627.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="521.75 370.25 505.75 361.25 505.75 356.25 521.75 365.25 521.75 370.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polyline points="505.75 356.25 513.75 351.25 529.75 360.25 521.75 365.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <path d="M510.5,407.5" transform="translate(-4.75 -51.25)" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="529.75 360.25 513.75 351.25 513.75 346.25 529.75 355.25 529.75 360.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polyline points="513.75 346.25 521.75 341.25 537.75 350.25 529.75 355.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <path d="M518.5,397.5" transform="translate(-4.75 -51.25)" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="537.75 350.25 521.75 341.25 521.75 336.25 537.75 345.25 537.75 350.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polyline points="521.75 336.25 529.75 331.25 545.75 340.25 537.75 345.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <path d="M526.5,387.5" transform="translate(-4.75 -51.25)" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="545.75 340.25 529.75 331.25 529.75 326.25 545.75 335.25 545.75 340.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polyline points="529.75 326.25 537.75 321.25 553.75 330.25 545.75 335.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <path d="M534.5,377.5" transform="translate(-4.75 -51.25)" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="553.75 330.25 537.75 321.25 537.75 316.25 553.75 325.25 553.75 330.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polyline points="537.75 316.25 545.75 311.25 561.75 320.25 553.75 325.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <path d="M542.5,367.5" transform="translate(-4.75 -51.25)" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="561.75 320.25 545.75 311.25 545.75 306.25 561.75 315.25 561.75 320.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polyline points="545.75 306.25 553.75 301.25 569.75 310.25 561.75 315.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <path d="M551.5,357.5" transform="translate(-4.75 -51.25)" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <line x1="569.75" y1="310.25" x2="569.75" y2="344.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="634.75 647.25 662.75 663.25 662.75 655.25 634.75 639.25 634.75 647.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polyline points="634.75 639.25 643.75 635.25 672.75 651.25 662.75 655.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="644.75 635.25 672.75 651.25 672.75 643.25 644.75 627.25 644.75 635.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polyline points="644.75 627.25 653.75 623.25 682.75 639.25 672.75 643.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="654.75 623.25 682.75 639.25 682.75 631.25 654.75 615.25 654.75 623.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polyline points="654.75 615.25 663.75 611.25 692.75 627.25 682.75 631.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="664.75 611.25 692.75 627.25 692.75 619.25 664.75 603.25 664.75 611.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polyline points="664.75 603.25 673.75 599.25 702.75 615.25 692.75 619.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="674.75 599.25 702.75 615.25 702.75 607.25 674.75 591.25 674.75 599.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="684.75 587.25 712.75 603.25 712.75 595.25 684.75 579.25 684.75 587.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polyline points="674.75 591.25 683.75 587.25 712.75 603.25 702.75 607.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polyline points="760.75 382.25 629.75 308.25 521.75 370.25 648.75 443.25 730.75 396.25 721.75 390.25 746.75 375.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <line x1="629.75" y1="308.25" x2="619.75" y2="302.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="636.75 368.25 662.75 352.25 669.75 357.25 643.75 373.25 636.75 368.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="647.75 371.25 673.75 355.25 680.75 360.25 654.75 376.25 647.75 371.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="658.75 374.25 684.75 358.25 691.75 363.25 665.75 379.25 658.75 374.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="687.75 383.25 713.75 367.25 720.75 372.25 694.75 388.25 687.75 383.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="697.75 386.25 723.75 370.25 730.75 375.25 704.75 391.25 697.75 386.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="707.75 389.25 733.75 373.25 740.75 378.25 714.75 394.25 707.75 389.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polygon points="670.75 376.25 696.75 360.25 709.75 369.25 683.75 385.25 670.75 376.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polyline points="636.75 368.25 636.75 376.25 700.41 414.64" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polyline points="751.75 571.25 780.75 554.25 835.75 587.25" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2.5px"/>
+  <polyline points="589.25 502.75 589.25 301.75 327.25 301.75 327.25 342.75" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px"/>
+  <polyline points="453.25 300.75 453.25 194.75 253.25 190.75 253.25 152.75" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px"/>
+  <polyline points="904.25 289.75 926.25 289.75 926.25 132.75" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px"/>
+  <polyline points="390.25 623.75 390.25 701.75 513.25 701.75" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px"/>
+  <polyline points="880.25 496.75 880.25 721.75 613.25 721.75" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px"/>
+
+  <polygon id="triangle" points="252.75 83.16 225.88 129.7 279.63 129.7 252.75 83.16" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px"/>
+  <circle id="circle" cx="563.06" cy="711.31" r="26.87" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px"/>
+  <rect id="square" x="899.66" y="56.47" width="53.74" height="53.74" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px"/>
+</svg>

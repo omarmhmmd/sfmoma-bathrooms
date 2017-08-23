@@ -1,0 +1,215 @@
+/******** MAIN BODY ********/
+@font-face {
+  font-family: 'markBlack';
+  src: local('markBlack'),
+    url('/fonts/MarkPro-Black.woff') format('woff'),
+    url('/fonts/MarkPro-Black.ttf') format('truetype'),
+    url('/fonts/MarkPro-Black.eot') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'markBook';
+  src: local('markBlack'),
+    url('/fonts/MarkPro-Book.woff') format('woff'),
+    url('/fonts/MarkPro-Book.ttf') format('truetype');
+}
+
+a, a:visited, a:hover, a:active , a:focus{
+  color: inherit;
+  text-decoration: none;
+}
+/******** END MAIN BODY ********/
+
+/******* HOME ********/
+.logo {
+  position: absolute;
+  font-family:'markBlack';
+  font-style: normal;
+  line-height: normal;
+  font-size: 6.25em;
+  text-transform: uppercase;
+  color: white;
+  background-color: none;
+  height: 250px;
+  width: 560px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  /* Firefox */
+  -webkit-animation: fadein 2s;
+  /* Safari and Chrome */
+  -o-animation: fadein 2s;
+  /* Opera */
+  -webkit-animation: colorchange 25s infinite alternate;
+  -moz-animation: colorchange 25s infinite alternate;
+}
+
+.sf {
+  position: absolute;
+  left: 55px;
+  top: 60px;
+}
+
+.mo {
+  position: absolute;
+  left: 195px;
+  top: 15px;
+}
+
+.ma {
+  position: absolute;
+  left: 320px;
+  top: 100px;
+  overflow: hidden;
+  z-index: -10;
+}
+
+.broom {
+  display: none;
+  font-family: 'markBlack';
+  font-style: normal;
+  line-height: normal;
+  font-size: 5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.loadBroom {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  /* Firefox */
+  -webkit-animation: fadein 2s;
+  /* Safari and Chrome */
+  -o-animation: fadein 2s;
+  /* Opera */
+}
+/******** END HOME ********/
+
+/******** MENU LIST ********/
+.list {
+  position: relative;
+  font-family: Mark Pro;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1em;
+  color: white;
+  left: 2%;
+  top: 100%;
+}
+
+button {
+  font-family: Mark Pro;
+  background-color: black;
+  border: none;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.list li {
+  float: left;
+  padding: 30px;
+}
+/******** END MENU LIST ********/
+
+/******** ELEVATOR ********/
+button.elevatorLink:hover, .elevatorActive {
+  color: #ff0000;
+}
+/******** END ELEVATOR ********/
+
+/******** ZINE ********/
+button.zineLink:hover {
+  color: #00ff00;
+}
+/******** END ZINE ********/
+
+/******** ABOUT ********/
+button.aboutButton:hover, .buttonActive {
+  color: #4C367C;
+}
+
+a.aboutLink:hover {
+  color: #4C367C;
+}
+
+p {
+  font-family: 'markBook';
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1em;
+}
+
+.aboutParagraph {
+  display: none;
+  background-color: none;
+  color: white;
+  position: absolute;
+  width: 500px;
+  height: 160px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/******** END ABOUT ********/
+
+/******** ANIMATIONS ********/
+@keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@-webkit-keyframes colorchange {
+  20% {
+      color: #ff0000;
+  }
+  40% {
+      color: #00ff00;
+  }
+  60% {
+      color: #4C367C;
+  }
+  80% {
+      color: #1493A3;
+  }
+  100% {
+      color: white;
+  }
+}
+/******** END ANIMATIONS ********/
