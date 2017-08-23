@@ -14,6 +14,20 @@ $(function() {
       $('.mo').delay(delayTime).animate({ top: '-60%', }, aniSpeed, 'easeInOutQuart');
       $('.ma').delay(delayTime).animate({ top: '-31%', }, aniSpeed, 'easeInOutQuart');
       $('.list').delay(1800).animate({ top: '88%'}, 1000, 'swing');
+
+      $(".elevatorLink").click(function(){
+        $(".container").css('visibility', 'visible');
+        var x = $(".sideNav").position();
+        if (x.left == -50) {
+          $('.sideNav').animate({ right: '86%'}, sideNavAnimation, sideNavEase);
+          $('.home').animate({ left: '0px'}, sideNavAnimation, sideNavEase);
+        }
+        else {
+          $('.sideNav').animate({ right: '100%'}, sideNavAnimation, sideNavEase);
+          $('.home').animate({ left: '0px'}, sideNavAnimation, sideNavEase);
+        }
+        $(this).toggleClass('elevatorActive');
+     });
     }
 
     /******** DESKTOP ********/
@@ -22,6 +36,20 @@ $(function() {
       $('.mo').delay(delayTime).animate({ left: '50%', top: '-115%', "font-size":"144"}, aniSpeed, 'easeInOutQuart');
       $('.ma').delay(delayTime).animate({ left: '110%', top: '135%', "font-size":"144"}, aniSpeed, 'easeInOutQuart');
       $('.list').delay(3000).animate({ top: '88%'}, 1000, 'swing');
+
+      $(".elevatorLink").click(function(){
+        $(".container").css('visibility', 'visible');
+        var x = $(".sideNav").position();
+        if (x.left == -50) {
+          $('.sideNav').animate({ right: '96%'}, sideNavAnimation, sideNavEase);
+          $('.home').animate({ left: '50px'}, sideNavAnimation, sideNavEase);
+        }
+        else {
+          $('.sideNav').animate({ right: '100%'}, sideNavAnimation, sideNavEase);
+          $('.home').animate({ left: '0px'}, sideNavAnimation, sideNavEase);
+        }
+        $(this).toggleClass('elevatorActive');
+     });
     }
 
     $(".aboutButton").click(function(){
@@ -39,20 +67,6 @@ $(function() {
       }
       $(this).toggleClass('buttonActive');
    });
-
-   $(".elevatorLink").click(function(){
-     $(".container").css('visibility', 'visible');
-     var x = $(".sideNav").position();
-     if (x.left == -50) {
-       $('.sideNav').animate({ right: '96%'}, sideNavAnimation, sideNavEase);
-       $('.home').animate({ left: '50px'}, sideNavAnimation, sideNavEase);
-     }
-     else {
-       $('.sideNav').animate({ right: '100%'}, sideNavAnimation, sideNavEase);
-       $('.home').animate({ left: '0px'}, sideNavAnimation, sideNavEase);
-     }
-     $(this).toggleClass('elevatorActive');
-  });
   /******** END DESKTOP ********/
 
 
