@@ -119,7 +119,7 @@ button {
 
 .list li {
   float: left;
-  padding: 30px;
+  padding: 2vw;
 }
 /******** END MENU LIST ********/
 
@@ -252,5 +252,18 @@ p {
     top: 98px;
     overflow: hidden;
     z-index: -10;
+  }
+
+  .list {
+    width: 290px;
+    background-color: none;
+    position: absolute;
+    top:100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .list li {
+    padding-left: 6vw;
   }
 }
