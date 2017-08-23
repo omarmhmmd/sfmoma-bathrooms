@@ -93,7 +93,7 @@ a, a:visited, a:hover, a:active , a:focus{
 /******** MENU LIST ********/
 .list {
   position: relative;
-  font-family: Mark Pro;
+  font-family:  'markBlack';
   font-style: normal;
   font-weight: normal;
   line-height: normal;
@@ -105,9 +105,9 @@ a, a:visited, a:hover, a:active , a:focus{
 
 button {
   font-family: Mark Pro;
-  background-color: black;
   border: none;
   text-decoration: none;
+  background-color: black;
   font-style: normal;
   font-weight: normal;
   line-height: normal;
