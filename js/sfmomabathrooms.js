@@ -6,9 +6,10 @@ var sideNavEase = "easeInOutQuart";
 $(function() {
 
 
-    document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
+
     /******** MOBILE ********/
     if($(window).width() < 481) {
+      $('section').css("overflow-y", "hidden");
       console.log("phone");
       //$('.broom').css('background-color', 'red');
 
