@@ -39,6 +39,7 @@ table {
 html,body {
   background-color: black;
   overflow: hidden;
+
 }
 
 a, a:hover {
@@ -573,7 +574,7 @@ rect, circle, polygon {
   .container {
     position: relative;
     padding: 0;
-    top: 95%;
+    
     transform: translateY(-50%);
     float: none;
     left: 7%;
