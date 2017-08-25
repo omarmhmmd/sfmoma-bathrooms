@@ -183,6 +183,7 @@ a.white:hover, .activeWhite {
 
 /**** CAROUSEL CUTSOMIZATION ****/
 .container {
+  visibility: hidden;
   position: relative;
   padding: 0;
   top: 50%;
