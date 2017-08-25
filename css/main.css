@@ -36,12 +36,12 @@ table {
 /*********** END RESET *************/
 
 /******* BODY *******/
-html,body, .overflowWrap {
+html ,body, .overflowWrap {
   background-color: black;
   height: 100%;
-  overflow: hidden !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
   width: 100%;
-
 }
 
 a, a:hover {
@@ -116,7 +116,7 @@ section.home {
   width: 100%;
   top: 700%;
   position: absolute;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 /******** END FLOORS ********/
 
@@ -189,10 +189,10 @@ a.white:hover, .activeWhite {
   visibility: hidden;
   position: relative;
   padding: 0;
-  top: 50%;
+  top: 30vh;
   transform: translateY(-50%);
   float: right;
-  width: 40%;
+  width: 40vw;
 }
 
 .carousel-inner {
@@ -572,21 +572,36 @@ rect, circle, polygon {
   #globalGreenFloorplan, #greenFloorplan {
     height:auto;
     width: 80%;
-    top: 45%;
+    top: 55%;
     transform: translateY(-50%);
     left: 17%;
   }
 
   .container {
     position: relative;
-    padding: 0;
-
+    padding-right: 8%;
     transform: translateY(-50%);
     float: none;
-    left: 70%;
-    width: 70%;
+    top:40%;
+    left: 100%;
+    width: 80%;
   }
 
+  .carousel-indicators li {
+    height: 7px;
+    width: 7px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    background-color: white;
+    opacity: 0.25 !important;
+  }
 
+  .carousel-indicators .active {
+    height: 9px;
+    width: 9px;
+    margin-left: 5px;
+    margin-bottom: -1px;
+    background-color: white;
+  }
 
 }

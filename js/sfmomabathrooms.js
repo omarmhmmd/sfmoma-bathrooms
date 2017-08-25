@@ -6,7 +6,7 @@ var sideNavEase = "easeInOutQuart";
 $(function() {
 
 
-    document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
+    //document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
     /******** MOBILE ********/
     if($(window).width() < 481) {
       console.log("phone");
