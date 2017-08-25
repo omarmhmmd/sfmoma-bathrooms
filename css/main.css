@@ -56,8 +56,10 @@ a:focus {
 /******** FLOORS ********/
 section {
   overflow-y: hidden;
-  overflow-x: visible;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
 }
+
 section.green {
   height: 100%;
   width: 100%;
@@ -111,6 +113,7 @@ section.home {
   width: 100%;
   top: 700%;
   position: absolute;
+  overflow: hidden;
 }
 /******** END FLOORS ********/
 
@@ -596,10 +599,5 @@ rect, circle, polygon {
     margin-left: 5px;
     margin-bottom: -1px;
     background-color: white;
-  }
-
-  .scrollX {
-    overflow-x: scroll;
-    overflow-y: hidden !important;
   }
 }
