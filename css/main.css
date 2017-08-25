@@ -598,4 +598,7 @@ rect, circle, polygon {
     background-color: white;
   }
 
+  section.green {
+    overflow-x: scroll;
+  }
 }
