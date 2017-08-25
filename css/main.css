@@ -36,11 +36,9 @@ table {
 /*********** END RESET *************/
 
 /******* BODY *******/
-html ,body, .overflowWrap {
+html ,body {
   background-color: black;
   height: 100%;
-  overflow-x: hidden !important;
-  overflow-y: hidden !important;
   width: 100%;
 }
 
@@ -56,11 +54,14 @@ a:focus {
 /******** END BODY ********/
 
 /******** FLOORS ********/
+section {
+  position: fixed;
+  overflow-y: hidden;
+}
 section.green {
   height: 100%;
   width: 100%;
   position: absolute;
-  overflow-y: hidden;
 }
 
 section.pink {
@@ -68,7 +69,6 @@ section.pink {
   width: 100%;
   position: absolute;
   top: 100%;
-  overflow-y: hidden;
 }
 
 section.blue {
@@ -76,7 +76,6 @@ section.blue {
   width: 100%;
   position: absolute;
   top: 200%;
-  overflow-y: hidden;
 }
 
 section.purple {
@@ -84,7 +83,6 @@ section.purple {
   width: 100%;
   position: absolute;
   top: 300%;
-  overflow-y: hidden;
 }
 
 section.black {
@@ -92,7 +90,6 @@ section.black {
   width: 100%;
   position: absolute;
   top: 400%;
-  overflow-y: hidden;
 }
 
 section.red {
@@ -100,7 +97,6 @@ section.red {
   width: 100%;
   position: absolute;
   top: 500%;
-  overflow-y: hidden;
 }
 
 section.white {
@@ -108,7 +104,6 @@ section.white {
   width: 100%;
   position: absolute;
   top: 600%;
-  overflow-y: hidden;
 }
 
 section.home {
@@ -116,7 +111,6 @@ section.home {
   width: 100%;
   top: 700%;
   position: absolute;
-  overflow: hidden;
 }
 /******** END FLOORS ********/
 
