@@ -9,10 +9,6 @@ $(function() {
 
     /******** MOBILE ********/
     if($(window).width() < 481) {
-      $('html, body').on('touchstart touchmove', function(e){
-       //prevent native touch activity like scrolling
-        e.preventDefault();
-      });
       console.log("phone");
       //$('.broom').css('background-color', 'red');
 
@@ -20,7 +16,7 @@ $(function() {
       $('.mo').delay(delayTime).animate({ top: '-60%', }, aniSpeed, 'easeInOutQuart');
       $('.ma').delay(delayTime).animate({ top: '-31%', }, aniSpeed, 'easeInOutQuart');
       $('.list').delay(1800).animate({ top: '92.5%'}, 1000, 'swing');
-      $("#myCarouselGreen .carousel-inner > .item").css("display","block");
+      //$("#myCarouselGreen .carousel-inner > .item").css("display","block");
 
       $(".elevatorLink").click(function(){
         $(".container").css('visibility', 'visible');

@@ -564,13 +564,19 @@ rect, circle, polygon {
   #globalGreenFloorplan, #greenFloorplan {
     height:auto;
     width: 80%;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
-    left: 15%;
+    left: 17%;
   }
 
   .container {
-    
+    position: relative;
+    padding: 0;
+    top: 95%;
+    transform: translateY(-50%);
+    float: none;
+    left: 7%;
+    width: 70%;
   }
 
 
