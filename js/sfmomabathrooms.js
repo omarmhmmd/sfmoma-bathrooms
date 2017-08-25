@@ -8,7 +8,6 @@ $(function() {
     /******** MOBILE ********/
     if($(window).width() < 481) {
 
-  
       console.log("phone");
       //$('.broom').css('background-color', 'red');
 

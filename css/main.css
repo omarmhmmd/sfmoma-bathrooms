@@ -56,7 +56,7 @@ a:focus {
 /******** FLOORS ********/
 section {
   overflow-y: hidden;
-	overflow-x: scroll;
+	overflow-x: visible;
 	-webkit-overflow-scrolling: touch;
 }
 
@@ -576,8 +576,7 @@ rect, circle, polygon {
 
   .container {
     position: relative;
-    padding-right: 8%;
-    transform: translateY(-50%);
+    padding-right: 9%;
     float: none;
     top:40%;
     left: 100%;
