@@ -7,11 +7,8 @@ $(function() {
 
     /******** MOBILE ********/
     if($(window).width() < 481) {
-      
-      $(document).bind("touchmove", function(e){
-        e.preventDefault();
-      });
 
+  
       console.log("phone");
       //$('.broom').css('background-color', 'red');
 
