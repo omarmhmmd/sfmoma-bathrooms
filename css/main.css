@@ -37,7 +37,6 @@ table {
 
 /******* BODY *******/
 html ,body {
-  overflow-y: hidden;
   background-color: black;
   height: 100%;
   width: 100%;
@@ -56,7 +55,6 @@ a:focus {
 
 /******** FLOORS ********/
 section {
-  position: fixed;
   overflow-y: hidden;
 }
 section.green {
