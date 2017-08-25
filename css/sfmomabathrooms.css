@@ -2,16 +2,16 @@
 @font-face {
   font-family: 'markBlack';
   src: local('markBlack'),
-    url('./fonts/MarkPro-Black.woff') format('woff'),
-    url('./fonts/MarkPro-Black.ttf') format('truetype'),
-    url('./fonts/MarkPro-Black.eot') format('embedded-opentype');
+    url('..fonts/MarkPro-Black.woff') format('woff'),
+    url('../fonts/MarkPro-Black.ttf') format('truetype'),
+    url('../fonts/MarkPro-Black.eot') format('embedded-opentype');
 }
 
 @font-face {
   font-family: 'markBook';
   src: local('markBlack'),
-    url('./fonts/MarkPro-Book.woff') format('woff'),
-    url('./fonts/MarkPro-Book.ttf') format('truetype');
+    url('../fonts/MarkPro-Book.woff') format('woff'),
+    url('../fonts/MarkPro-Book.ttf') format('truetype');
 }
 
 a, a:visited, a:hover, a:active , a:focus{
