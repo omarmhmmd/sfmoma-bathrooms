@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'markBlack';
   src: local('markBlack'),
-    url('..fonts/MarkPro-Black.woff') format('woff'),
+    url('../fonts/MarkPro-Black.woff') format('woff'),
     url('../fonts/MarkPro-Black.ttf') format('truetype'),
     url('../fonts/MarkPro-Black.eot') format('embedded-opentype');
 }
@@ -144,15 +144,12 @@ a.aboutLink:hover {
   color: #4C367C;
 }
 
-p {
+.aboutParagraph {
   font-family: 'markBook';
   font-style: normal;
   font-weight: normal;
   line-height: normal;
   font-size: 1em;
-}
-
-.aboutParagraph {
   width: 475px;
   display: none;
   background-color: none;
