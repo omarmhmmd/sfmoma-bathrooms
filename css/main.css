@@ -600,5 +600,6 @@ rect, circle, polygon {
 
   .scrollX {
     overflow-x: scroll;
+    overflow-y: hidden !important;
   }
 }
