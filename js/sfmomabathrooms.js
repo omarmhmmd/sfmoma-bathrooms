@@ -9,7 +9,10 @@ $(function() {
     $(document).bind("touchmove", function(e){
       e.preventDefault();
     });
-  
+
+    $('.container').on('touchmove', function (e) {
+      e.stopPropagation();
+    });
     /******** MOBILE ********/
     if($(window).width() < 481) {
       console.log("phone");
