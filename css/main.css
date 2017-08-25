@@ -36,7 +36,7 @@ table {
 /*********** END RESET *************/
 
 /******* BODY *******/
-html,body {
+html,body, .overflowWrap {
   background-color: black;
   height: 100%;
   overflow: hidden !important;
