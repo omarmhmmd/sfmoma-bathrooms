@@ -38,7 +38,9 @@ table {
 /******* BODY *******/
 html,body {
   background-color: black;
-  overflow: hidden;
+  height: 100%;
+  overflow: hidden !important;
+  width: 100%;
 
 }
 
@@ -574,7 +576,7 @@ rect, circle, polygon {
   .container {
     position: relative;
     padding: 0;
-    
+
     transform: translateY(-50%);
     float: none;
     left: 7%;
