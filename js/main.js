@@ -50,6 +50,9 @@ var svgSpeed = 500;
       $(".floorColor").fadeOut(function() {
         $(this).text("Green").fadeIn(colorSpeed);
       });
+      $(".floorNumber").fadeOut(function() {
+        $(this).text("07").fadeIn(colorSpeed);
+      });
       $('.sideNav').animate({ "border-right-color": "#00ff00"}, aniSpeed, 'swing');
       $('.level').animate({ "color": "#00ff00"}, aniSpeed, 'swing');
       var greenVivus = new Vivus('globalGreenFloorplan', {type: 'delayed', duration: svgSpeed, animTimingFunction: Vivus.EASE, file: 'svg/007.svg'}, function (myVivus) {
@@ -76,6 +79,9 @@ var svgSpeed = 500;
       $(".floorColor").fadeOut(function() {
         $(this).text("Pink").fadeIn(colorSpeed);
       });
+      $(".floorNumber").fadeOut(function() {
+        $(this).text("06").fadeIn(colorSpeed);
+      });
       $('.sideNav').animate({ "border-right-color": "#F45F8F"}, aniSpeed, 'swing');
       $('.level').animate({ "color": "#F45F8F"}, aniSpeed, 'swing');
       var pinkVivus = new Vivus('globalPinkFloorplan', {type: 'delayed', duration: svgSpeed, animTimingFunction: Vivus.EASE, file: 'svg/006.svg'}, function (myVivus) {
@@ -101,6 +107,9 @@ var svgSpeed = 500;
 
       $(".floorColor").fadeOut(function() {
         $(this).text("Blue").fadeIn(colorSpeed);
+      });
+      $(".floorNumber").fadeOut(function() {
+        $(this).text("05").fadeIn(colorSpeed);
       });
       $('.sideNav').animate({ "border-right-color": "#1493A3"}, aniSpeed, 'swing');
       $('.level').animate({ "color": "#1493A3"}, aniSpeed, 'swing');
@@ -129,6 +138,9 @@ var svgSpeed = 500;
       $(".floorColor").fadeOut(function() {
         $(this).text("Purple").fadeIn(colorSpeed);
       });
+      $(".floorNumber").fadeOut(function() {
+        $(this).text("04").fadeIn(colorSpeed);
+      });
       $('.sideNav').animate({ "border-right-color": "#4C367C"}, aniSpeed, 'swing');
       $('.level').animate({ "color": "#4C367C "}, aniSpeed, 'swing');
       var purpleVivus = new Vivus('globalPurpleFloorplan', {type: 'delayed', duration: svgSpeed, animTimingFunction: Vivus.EASE, file: 'svg/004.svg'}, function (myVivus) {
@@ -154,6 +166,9 @@ var svgSpeed = 500;
 
       $(".floorColor").fadeOut(function() {
         $(this).text("Black & White").fadeIn(colorSpeed);
+      });
+      $(".floorNumber").fadeOut(function() {
+        $(this).text("03").fadeIn(colorSpeed);
       });
       $('.sideNav').animate({ "border-right-color": "#ffffff"}, aniSpeed, 'swing');
       $('.level').animate({ "color": "#ffffff"}, aniSpeed, 'swing');
@@ -181,6 +196,9 @@ var svgSpeed = 500;
       $(".floorColor").fadeOut(function() {
         $(this).text("Red").fadeIn(colorSpeed);
       });
+      $(".floorNumber").fadeOut(function() {
+        $(this).text("02").fadeIn(colorSpeed);
+      });
       $('.sideNav').animate({ "border-right-color": "#ff0000"}, aniSpeed, 'swing');
       $('.level').animate({ "color": "#ff0000"}, aniSpeed, 'swing');
       var redVivus = new Vivus('globalRedFloorplan', {type: 'delayed', duration: svgSpeed, animTimingFunction: Vivus.EASE, file: 'svg/002.svg'}, function (myVivus) {
@@ -206,6 +224,9 @@ var svgSpeed = 500;
 
       $(".floorColor").fadeOut(function() {
         $(this).text("White").fadeIn(colorSpeed);
+      });
+      $(".floorNumber").fadeOut(function() {
+        $(this).text("01").fadeIn(colorSpeed);
       });
       $('.sideNav').animate({ "border-right-color": "#fffdd0"}, aniSpeed, 'swing');
       $('.level').animate({ "color": "#fffdd0"}, aniSpeed, 'swing');

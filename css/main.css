@@ -225,7 +225,7 @@ carousel-control.left, .carousel-control.right {
 
 /******* CONTENT *******/
 .level {
-  position: absolute;
+  position: relative;
   width: 375px;
   height: 122px;
   left: 125px;
@@ -238,6 +238,10 @@ carousel-control.left, .carousel-control.right {
 }
 
 .floor {
+  position: fixed;
+}
+
+.floorNumber {
   position: fixed;
 }
 
@@ -582,6 +586,7 @@ rect, circle, polygon {
     left: 70%;
     width: 70%;
   }
+
 
 
 }

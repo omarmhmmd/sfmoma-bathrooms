@@ -22,7 +22,7 @@ $(function() {
         $(".container").css('visibility', 'visible');
         var x = $(".sideNav").position();
         if (x.left == -50) {
-          $('.sideNav').animate({ right: '86%'}, sideNavAnimation, sideNavEase);
+          $('.sideNav').animate({ right: '88%'}, sideNavAnimation, sideNavEase);
           $('.home').animate({ left: '0px'}, sideNavAnimation, sideNavEase);
         }
         else {
