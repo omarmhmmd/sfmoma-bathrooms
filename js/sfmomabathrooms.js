@@ -10,7 +10,7 @@ $(function() {
       e.preventDefault();
     });
 
-    $('.container').on('touchmove', function (e) {
+    $('section.green').on('touchmove', function (e) {
       e.stopPropagation();
     });
     /******** MOBILE ********/
