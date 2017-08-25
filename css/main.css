@@ -598,7 +598,7 @@ rect, circle, polygon {
     background-color: white;
   }
 
-  section.green {
+  .scrollX {
     overflow-x: scroll;
   }
 }

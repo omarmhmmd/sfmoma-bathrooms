@@ -5,16 +5,15 @@ var sideNavEase = "easeInOutQuart";
 
 $(function() {
 
-
-    $(document).bind("touchmove", function(e){
-      e.preventDefault();
-    });
-
-    $('section.green').on('touchmove', function (e) {
-      e.stopPropagation();
-    });
     /******** MOBILE ********/
     if($(window).width() < 481) {
+      $(document).bind("touchmove", function(e){
+        e.preventDefault();
+      });
+
+      $('.scrollX').on('touchmove', function (e) {
+        e.stopPropagation();
+      });
       console.log("phone");
       //$('.broom').css('background-color', 'red');
 
