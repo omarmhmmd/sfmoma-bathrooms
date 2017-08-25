@@ -5,8 +5,14 @@ var sideNavEase = "easeInOutQuart";
 
 $(function() {
 
+
+
     /******** MOBILE ********/
     if($(window).width() < 481) {
+      $('html, body').on('touchstart touchmove', function(e){
+       //prevent native touch activity like scrolling
+        e.preventDefault();
+      });
       console.log("phone");
       //$('.broom').css('background-color', 'red');
 
