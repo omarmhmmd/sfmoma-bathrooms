@@ -13,7 +13,8 @@ $(function() {
       $('.sf').delay(delayTime).animate({ top: '-45%', }, aniSpeed, 'easeInOutQuart');
       $('.mo').delay(delayTime).animate({ top: '-60%', }, aniSpeed, 'easeInOutQuart');
       $('.ma').delay(delayTime).animate({ top: '-31%', }, aniSpeed, 'easeInOutQuart');
-      $('.list').delay(1800).animate({ top: '88%'}, 1000, 'swing');
+      $('.list').delay(1800).animate({ top: '92.5%'}, 1000, 'swing');
+      $("#myCarouselGreen .carousel-inner > .item").css("display","block");
 
       $(".elevatorLink").click(function(){
         $(".container").css('visibility', 'visible');
@@ -35,7 +36,7 @@ $(function() {
       $('.sf').delay(delayTime).animate({ left: '-68%', top: '-20%', "font-size":"144"}, aniSpeed, 'easeInOutQuart');
       $('.mo').delay(delayTime).animate({ left: '50%', top: '-115%', "font-size":"144"}, aniSpeed, 'easeInOutQuart');
       $('.ma').delay(delayTime).animate({ left: '110%', top: '135%', "font-size":"144"}, aniSpeed, 'easeInOutQuart');
-      $('.list').delay(3000).animate({ top: '88%'}, 1000, 'swing');
+      $('.list').delay(3000).animate({ top: '88.5%'}, 1000, 'swing');
 
       $(".elevatorLink").click(function(){
         $(".container").css('visibility', 'visible');

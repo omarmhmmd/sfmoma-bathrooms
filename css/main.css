@@ -183,7 +183,6 @@ a.white:hover, .activeWhite {
 
 /**** CAROUSEL CUTSOMIZATION ****/
 .container {
-  visibility: hidden;
   position: relative;
   padding: 0;
   top: 50%;
@@ -255,7 +254,7 @@ rect, circle, polygon {
 
 /******** SVG ANIMATIONS ********/
   /******** GREEN FLOOR ********/
-  #globalGreenFloorplan {
+  #globalGreenFloorplan, #greenFloorplan {
     position: absolute;
     height:auto;
     width: 40%;
@@ -266,12 +265,6 @@ rect, circle, polygon {
 
   #greenFloorplan {
     visibility: hidden;
-    position: absolute;
-    height:auto;
-    width: 40%;
-    top: 65%;
-    transform: translateY(-50%);
-    left: 11%;
   }
 
   #greenSquare:hover {
@@ -499,3 +492,86 @@ rect, circle, polygon {
 /******** SVG ANIMATIONS ********/
 
 /******* END CONTENT *******/
+
+/******** MEDIA QUERIES ********/
+@media only screen and (max-width: 480px) {
+  .broom {
+    font-size: 14vw;
+    top: 55%;
+  }
+
+  .aboutParagraph {
+    font-size: 3.5vw;
+    max-width: 325px;
+    top: 60%;
+  }
+
+  .logo {
+    top: 50%;
+    left: 60%;
+    font-size: 5em;
+    height: 250px;
+    width: 560px;
+  }
+
+  .sf {
+    position: absolute;
+    left: 60px;
+    top: 60px;
+  }
+
+  .mo {
+    position: absolute;
+    left: 180px;
+    top: 25px;
+  }
+
+  .ma {
+    position: absolute;
+    left: 290px;
+    top: 98px;
+    overflow: hidden;
+    z-index: -10;
+  }
+
+  .list {
+    width: 290px;
+    background-color: none;
+    position: absolute;
+    top:100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .list li {
+    padding-left: 6vw;
+  }
+
+  .level {
+    width: 375px;
+    height: 122px;
+    left: 85px;
+    top: 20px;
+    font-size: 12vw;
+  }
+
+  .floorColor {
+    text-transform: none;
+    font-size: 40px;
+    position: fixed;
+  }
+
+  #globalGreenFloorplan, #greenFloorplan {
+    height:auto;
+    width: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15%;
+  }
+
+  .container {
+    
+  }
+
+
+}
