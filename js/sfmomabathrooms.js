@@ -5,11 +5,12 @@ var sideNavEase = "easeInOutQuart";
 
 $(function() {
 
-
-
+    document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
+    $('section').on('touchmove', function (e) {
+      e.stopPropagation();
+    });
     /******** MOBILE ********/
     if($(window).width() < 481) {
-      $('section').css("overflow-y", "hidden");
       console.log("phone");
       //$('.broom').css('background-color', 'red');
 
