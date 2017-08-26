@@ -75,7 +75,6 @@ $(function() {
     }
 
     else if (href == "#pink") {
-      window.location.hash = "#home";
       /***** Navigation Link Signifiers *****/
       $(".pinkActive").addClass("activePink");
       $(".greenActive").removeClass("activeGreen");
