@@ -12,13 +12,13 @@ $(function() {
         e.preventDefault();
       });
 
-      $('section.green').on('touchmove', function (e) {
+      /*$('section.green').on('touchmove', function (e) {
         e.stopPropagation();
       });
 
       $('section.pink').on('touchmove', function (e) {
         e.stopPropagation();
-      });
+      });*/
 
       console.log("phone");
       //$('.broom').css('background-color', 'red');

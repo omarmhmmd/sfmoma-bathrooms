@@ -63,6 +63,12 @@ var svgSpeed = 500;
           $('#greenFloorplan').css('visibility', 'visible');
         }
       });
+
+      if($(window).width() < 481) {
+        $('.container').delay(8000).animate({ top: '40%'}, 1000, 'easeInOutQuart');
+        $('#greenFloorplan').delay(8000).animate({ width: '40%'}, 1000, 'easeInOutQuart');
+
+      }
     }
 
     else if (href == "#pink") {
