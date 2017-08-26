@@ -5,6 +5,12 @@ var svgSpeed = 500;
 (function($) {
   "use strict"; // Start of use strict
 
+  window.onload = function() {
+
+    if (!document.location.hash){
+      document.location.hash = 'home';
+    }
+  }
 
   // jQuery for page scrolling feature - requires jQuery Easing plugin
   $(document).on('click', 'a.green, a.pink, a.blue, a.purple, a.black, a.red, a.white, a.home', function(event) {
@@ -63,12 +69,6 @@ var svgSpeed = 500;
           $('#greenFloorplan').css('visibility', 'visible');
         }
       });
-
-      if($(window).width() < 481) {
-        $('.container').delay(8000).animate({ top: '40%'}, 1000, 'easeInOutQuart');
-        $('#greenFloorplan').delay(8000).animate({ width: '40%'}, 1000, 'easeInOutQuart');
-
-      }
     }
 
     else if (href == "#pink") {
