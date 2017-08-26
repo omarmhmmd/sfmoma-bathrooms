@@ -9,12 +9,16 @@ $(function() {
     if($(window).width() < 481) {
 
       $(document).bind("touchmove", function(e){
-      e.preventDefault();
-    });
+        e.preventDefault();
+      });
 
-    $('section.green').on('touchmove', function (e) {
-      e.stopPropagation();
-    });
+      $('section.green').on('touchmove', function (e) {
+        e.stopPropagation();
+      });
+
+      $('section.pink').on('touchmove', function (e) {
+        e.stopPropagation();
+      });
 
       console.log("phone");
       //$('.broom').css('background-color', 'red');
