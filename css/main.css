@@ -56,7 +56,7 @@ a:focus {
 /******** FLOORS ********/
 section {
   overflow-y: hidden;
-	overflow-x: auto;
+	overflow-x: hidden;
 }
 
 section.green {
