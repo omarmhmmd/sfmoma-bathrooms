@@ -8,6 +8,14 @@ $(function() {
     /******** MOBILE ********/
     if($(window).width() < 481) {
 
+      $(document).bind("touchmove", function(e){
+      e.preventDefault();
+    });
+
+    $('section.green').on('touchmove', function (e) {
+      e.stopPropagation();
+    });
+
       console.log("phone");
       //$('.broom').css('background-color', 'red');
 

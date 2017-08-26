@@ -566,21 +566,19 @@ rect, circle, polygon {
     position: fixed;
   }
 
-  #globalGreenFloorplan, #greenFloorplan {
-    height:auto;
-    width: 80%;
-    top: 55%;
-    transform: translateY(-50%);
-    left: 17%;
-  }
-
   .container {
     position: relative;
     padding-right: 9%;
+    padding-top: 30%;
+    margin-bottom: 30%;
     float: none;
-    top:40%;
-    left: 100%;
+    top:90%;
+    left: 10%;
     width: 80%;
+  }
+
+  section.green {
+    overflow-y: scroll;
   }
 
   .carousel-indicators li {
@@ -598,5 +596,60 @@ rect, circle, polygon {
     margin-left: 5px;
     margin-bottom: -1px;
     background-color: white;
+  }
+
+  /******** MAPS ********/
+  #globalGreenFloorplan, #greenFloorplan {
+    height:auto;
+    width: 80%;
+    top: 55%;
+    left: 16%;
+  }
+
+  #globalPinkFloorplan, #pinkFloorplan {
+    height:auto;
+    width: 80%;
+    top: 55%;
+    left: 16%;
+  }
+
+  #globalBlueFloorplan, #blueFloorplan {
+    height:auto;
+    width: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16%;
+  }
+
+  #globalPurpleFloorplan, #purpleFloorplan {
+    height:auto;
+    width: 80%;
+    top: 47%;
+    transform: translateY(-50%);
+    left: 16%;
+  }
+
+  #globalBlackFloorplan, #blackFloorplan {
+    height:auto;
+    width: 80%;
+    top: 47%;
+    transform: translateY(-50%);
+    left: 16%;
+  }
+
+  #globalRedFloorplan, #redFloorplan {
+    height:auto;
+    width: 80%;
+    top: 47%;
+    transform: translateY(-50%);
+    left: 16%;
+  }
+
+  #globalWhiteFloorplan, #whiteFloorplan {
+    height:auto;
+    width: 80%;
+    top: 47%;
+    transform: translateY(-50%);
+    left: 16%;
   }
 }
