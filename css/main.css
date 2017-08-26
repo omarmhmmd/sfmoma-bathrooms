@@ -568,9 +568,8 @@ rect, circle, polygon {
   .container {
     position: relative;
     padding-right: 9%;
-
     float: none;
-    top:36vh;
+    top:100%;
     left: 10%;
     width: 80%;
   }
@@ -594,7 +593,6 @@ rect, circle, polygon {
 
   /******** MAPS ********/
   #globalGreenFloorplan, #greenFloorplan {
-    display:none;
     height:auto;
     width: 80%;
     top: 55%;
@@ -602,7 +600,6 @@ rect, circle, polygon {
   }
 
   #globalPinkFloorplan, #pinkFloorplan {
-    display:none;
     height:auto;
     width: 80%;
     top: 55%;
@@ -610,7 +607,6 @@ rect, circle, polygon {
   }
 
   #globalBlueFloorplan, #blueFloorplan {
-    display:none;
     height:auto;
     width: 80%;
     top: 50%;
@@ -619,7 +615,6 @@ rect, circle, polygon {
   }
 
   #globalPurpleFloorplan, #purpleFloorplan {
-    display:none;
     height:auto;
     width: 80%;
     top: 47%;
@@ -628,7 +623,6 @@ rect, circle, polygon {
   }
 
   #globalBlackFloorplan, #blackFloorplan {
-    display:none;
     height:auto;
     width: 80%;
     top: 47%;
@@ -637,7 +631,6 @@ rect, circle, polygon {
   }
 
   #globalRedFloorplan, #redFloorplan {
-    display:none;
     height:auto;
     width: 80%;
     top: 47%;
@@ -646,7 +639,6 @@ rect, circle, polygon {
   }
 
   #globalWhiteFloorplan, #whiteFloorplan {
-    display:none;
     height:auto;
     width: 80%;
     top: 47%;
