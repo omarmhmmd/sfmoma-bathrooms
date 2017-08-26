@@ -2,15 +2,13 @@ var aniSpeed = 1750;
 var colorSpeed = 2000;
 var svgSpeed = 500;
 
-(function($) {
-  "use strict"; // Start of use strict
 
-  window.onload = function() {
-
-    if (!document.location.hash){
-      document.location.hash = 'home';
-    }
-  }
+$(function() {
+  var $anchor = $('a.home');
+  var href = $('a.home').attr('href');
+  $('html, body').stop().animate({
+    scrollTop: ($($anchor.attr('href')).offset().top)
+  }, aniSpeed, 'easeInOutExpo');
 
   // jQuery for page scrolling feature - requires jQuery Easing plugin
   $(document).on('click', 'a.green, a.pink, a.blue, a.purple, a.black, a.red, a.white, a.home', function(event) {
@@ -72,6 +70,7 @@ var svgSpeed = 500;
     }
 
     else if (href == "#pink") {
+      window.location.hash = "#home";
       /***** Navigation Link Signifiers *****/
       $(".pinkActive").addClass("activePink");
       $(".greenActive").removeClass("activeGreen");
@@ -246,7 +245,6 @@ var svgSpeed = 500;
       });
     }
 
-    event.preventDefault();
-  });
 
-})(jQuery); // End of use strict
+  });
+});
