@@ -66,8 +66,8 @@ $(function() {
           $("#level007").empty();
           $('#greenFloorplan').css('visibility', 'visible');
           if($(window).width() < 481) {
-            $('.container').animate({ top: '36vh', }, aniSpeed, 'easeInOutQuart');
-            $("#level007").stop().fadeOut(250);
+            $('.container').animate({ top: '36vh', }, 1500, 'easeInOutQuart');
+            $("#level007").empty();
             $('#greenFloorplan').css('visibility', 'hidden');
           }
         }
