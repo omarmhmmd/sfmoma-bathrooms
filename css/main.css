@@ -546,8 +546,12 @@ rect, circle, polygon {
     transform: translateX(-50%);
   }
 
-  .list li {
-    padding-left: 6vw;
+  .noPadLeft {
+    padding-left: 0;
+  }
+
+  .padLeft {
+    padding-left: 12vw;
   }
 
   .level {
