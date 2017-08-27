@@ -652,7 +652,7 @@ rect, circle, polygon {
 
 @media only screen and (max-width: 321px) {
   .list {
-    width: 50vw;
+    width: 100vw;
     background-color: red;
 
 }
