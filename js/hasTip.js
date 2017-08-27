@@ -29,38 +29,67 @@ $('.hastip').tooltipsy({
   }
 });
 
-/*$('.hastip').tooltipsy({
-    offset: [10, 0],
-    show: function (e, $el) {
-        $el.css({
-            'visibility':'visible',
-            'top': parseInt($el[0].style.top.replace(/[a-z]/g, '')) - 50 + 'px',
-            'opacity': '0.0',
-            'display': 'block'
-        }).animate({
-            'top': parseInt($el[0].style.top.replace(/[a-z]/g, '')) + 50 + 'px',
-            'opacity': '1.0'
-        }, 400);
-    },
-    hide: function (e, $el) {
+$('.hastipBelow').tooltipsy({
+  show: function (e, $el) {
       $el.css({
-          'visibility':'hidden',
-          'top': parseInt($el[0].style.top.replace(/[a-z]/g, '')) + 0 + 'px',
-          'opacity': '1.0',
+          'visibility':'visible',
+          'opacity': '0.0',
           'display': 'block'
       }).animate({
-          'top': parseInt($el[0].style.top.replace(/[a-z]/g, '')) - 50 + 'px',
-          'opacity': '0.0'
-      }, 400);
-    },
-    css: {
+          'opacity': '1.0'
+      }, 500);
+  },
+  hide: function (e, $el) {
+    $el.css({
+        'visibility':'hidden',
+        'opacity': '1.0',
+        'display': 'block'
+    }).animate({
+        'opacity': '0.0'
+    }, 500);
+  },
+  offset: [0, 30],
+  css: {
       'font-family': 'Mark Pro',
-      'padding-left': '20px',
-      'padding-top': '25px',
       'font-size': '18px',
-      'max-width': '500px',
+      'padding-left': '30px',
+      'padding-top': '7.75px',
+      'max-width': '1000px',
       'color': 'white',
       'font-style': 'oblique',
       'background-color': 'none',
-    }
-});*/
+  }
+});
+
+$('.hastipRight').tooltipsy({
+  show: function (e, $el) {
+      $el.css({
+          'visibility':'visible',
+          'opacity': '0.0',
+          'display': 'block'
+      }).animate({
+          'opacity': '1.0'
+      }, 500);
+  },
+  hide: function (e, $el) {
+    $el.css({
+        'visibility':'hidden',
+        'opacity': '1.0',
+        'display': 'block'
+    }).animate({
+        'opacity': '0.0'
+    }, 500);
+  },
+  offset: [20, 0],
+  css: {
+    'font-family': 'Mark Pro',
+    'font-size': '18px',
+    'padding-left': '20px',
+    'padding-top': '25px',
+    'max-width': '2000px',
+    'color': 'white',
+    'font-style': 'oblique',
+    'background-color': 'none',
+  }
+
+});
