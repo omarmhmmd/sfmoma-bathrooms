@@ -539,19 +539,14 @@ rect, circle, polygon {
   }
 
   .list {
-    width: 80vw;
+    width: 100vw;
+    left: -5%;
     position: absolute;
     top:100%;
-    left: 50%;
-    transform: translateX(-50%);
   }
 
-  .noPadLeft {
-    padding-left: 0;
-  }
-
-  .padLeft {
-    padding-left: 12vw;
+  .list li {
+    padding-left: 15vw;
   }
 
   .level {
@@ -652,8 +647,16 @@ rect, circle, polygon {
 
 @media only screen and (max-width: 321px) {
   .list {
-    width: 87vw;
-    padding-left: 2px;
+    width: 120vw;
+    left: -5%;
+    position: absolute;
+    top:100%;
+  }
+
+  .list li {
+    padding-left: 12.5vw;
+  }
+
 }
 
 
