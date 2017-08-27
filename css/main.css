@@ -654,6 +654,7 @@ rect, circle, polygon {
   .list {
     width: 100vw;
     background-color: green;
+    padding-left: 5px;
   }
 
 }
