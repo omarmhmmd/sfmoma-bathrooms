@@ -652,11 +652,10 @@ rect, circle, polygon {
 
 @media only screen and (max-width: 321px) {
   .list {
-    width: 99vw;
-    background-color: green;
+    width: 101vw;
+    background-color: red;
 
 }
-
 
 /******** ANIMATIONS ********/
 @keyframes fadein {
