@@ -540,7 +540,6 @@ rect, circle, polygon {
 
   .list {
     width: 80vw;
-    background-color: green;
     position: absolute;
     top:100%;
     left: 50%;
@@ -645,6 +644,14 @@ rect, circle, polygon {
     transform: translateY(-50%);
     left: 16%;
   }
+}
+
+@media only screen and (max-width: 321px) {
+  .list {
+    background-color: green;
+    width: 90vw;
+  }
+
 }
 
 
