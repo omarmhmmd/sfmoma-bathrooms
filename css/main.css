@@ -539,8 +539,8 @@ rect, circle, polygon {
   }
 
   .list {
-    width: 290px;
-    background-color: none;
+    width: 80vw;
+    background-color: green;
     position: absolute;
     top:100%;
     left: 50%;
@@ -569,7 +569,7 @@ rect, circle, polygon {
     position: relative;
     padding-right: 9%;
     float: none;
-    top:110%;
+    top:115%;
     left: 10%;
     width: 80%;
   }

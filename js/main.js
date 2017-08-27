@@ -13,6 +13,10 @@ $(function() {
   // jQuery for page scrolling feature - requires jQuery Easing plugin
   $(document).on('click', 'a.green, a.pink, a.blue, a.purple, a.black, a.red, a.white, a.home', function(event) {
 
+    if($(window).width() < 481) {
+      $('.container').css('top', '115%');
+    }
+
     $("#globalGreenFloorplan").empty();
     $("#globalPinkFloorplan").empty();
     $("#globalBlueFloorplan").empty();
@@ -66,7 +70,7 @@ $(function() {
           $("#level007").empty();
           $('#greenFloorplan').css('visibility', 'visible');
           if($(window).width() < 481) {
-            $('.container').animate({ top: '36vh', }, 1500, 'easeInOutQuart');
+            $('.container').animate({ top: '36vh', }, 1000, 'easeInOutQuart');
             $("#level007").empty();
             $('#greenFloorplan').css('visibility', 'hidden');
           }
@@ -99,6 +103,11 @@ $(function() {
           pinkVivus.destroy();
           $("#globalFloorplan").empty();
           $('#pinkFloorplan').css('visibility', 'visible');
+          if($(window).width() < 481) {
+            $('.container').animate({ top: '36vh', }, 1000, 'easeInOutQuart');
+            $("#level006").empty();
+            $('#pinkFloorplan').css('visibility', 'hidden');
+          }
         }
       });
     }
@@ -128,6 +137,11 @@ $(function() {
           blueVivus.destroy();
           $("#globalFloorplan").empty();
           $('#blueFloorplan').css('visibility', 'visible');
+          if($(window).width() < 481) {
+            $('.container').animate({ top: '36vh', }, 1000, 'easeInOutQuart');
+            $("#level005").empty();
+            $('#blueFloorplan').css('visibility', 'hidden');
+          }
         }
       });
     }
@@ -158,6 +172,11 @@ $(function() {
           purpleVivus.destroy();
           $("#globalPurpleFloorplan").empty();
           $('#purpleFloorplan').css('visibility', 'visible');
+          if($(window).width() < 481) {
+            $('.container').animate({ top: '36vh', }, 1000, 'easeInOutQuart');
+            $("#level004").empty();
+            $('#purpleloorplan').css('visibility', 'hidden');
+          }
         }
       });
     }
@@ -187,6 +206,11 @@ $(function() {
           blackVivus.destroy();
           $("#globalBlackFloorplan").empty();
           $('#blackFloorplan').css('visibility', 'visible');
+          if($(window).width() < 481) {
+            $('.container').animate({ top: '36vh', }, 1000, 'easeInOutQuart');
+            $("#level003").empty();
+            $('#blackFloorplan').css('visibility', 'hidden');
+          }
         }
       });
     }
@@ -216,6 +240,11 @@ $(function() {
           redVivus.destroy();
           $("#globalRedFloorplan").empty();
           $('#redFloorplan').css('visibility', 'visible');
+          if($(window).width() < 481) {
+            $('.container').animate({ top: '36vh', }, 1000, 'easeInOutQuart');
+            $("#level002").empty();
+            $('#redFloorplan').css('visibility', 'hidden');
+          }
         }
       });
     }
@@ -245,6 +274,11 @@ $(function() {
           whiteVivus.destroy();
           $("#globalWhiteFloorplan").empty();
           $('#whiteFloorplan').css('visibility', 'visible');
+          if($(window).width() < 481) {
+            $('.container').animate({ top: '36vh', }, 1000, 'easeInOutQuart');
+            $("#level001").empty();
+            $('#whiteFloorplan').css('visibility', 'hidden');
+          }
         }
       });
     }
