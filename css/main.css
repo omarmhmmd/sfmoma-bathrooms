@@ -657,6 +657,31 @@ rect, circle, polygon {
     padding-left: 7.5vw;
   }
 
+  .sideNav {
+    position: fixed;
+    right:100%;
+    width: 50px;
+    height: 100vh;
+    background-color: black;
+    border-right: 1px solid #ffffff;
+    z-index: 10;
+  }
+
+  .sideNav ul {
+    padding-top: 3vh;
+  }
+
+  .sideNav li {
+    text-align: center;
+    padding-bottom: 8vh;
+    font-family: 'markBlack';
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+    color: white;
+  }
+
 }
 
 
