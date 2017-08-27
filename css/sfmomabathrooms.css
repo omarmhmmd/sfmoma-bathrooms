@@ -223,7 +223,7 @@ a.aboutLink:hover {
 
   .floorColor {
     text-transform: none;
-    font-size: 40px;
+    font-size: 10vw;
     position: fixed;
   }
 
@@ -232,7 +232,7 @@ a.aboutLink:hover {
     padding-right: 9%;
     float: none;
     top:115%;
-    left: 11%;
+    left: 12%;
     width: 80%;
   }
 
@@ -258,14 +258,14 @@ a.aboutLink:hover {
     height:auto;
     width: 80%;
     top: 55%;
-    left: 17%;
+    left: 18%;
   }
 
   #globalPinkFloorplan, #pinkFloorplan {
     height:auto;
     width: 80%;
     top: 55%;
-    left: 17%;
+    left: 18%;
   }
 
   #globalBlueFloorplan, #blueFloorplan {
@@ -273,7 +273,7 @@ a.aboutLink:hover {
     width: 80%;
     top: 50%;
     transform: translateY(-50%);
-    left: 17%;
+    left: 18%;
   }
 
   #globalPurpleFloorplan, #purpleFloorplan {
@@ -281,7 +281,7 @@ a.aboutLink:hover {
     width: 80%;
     top: 47%;
     transform: translateY(-50%);
-    left: 17%;
+    left: 18%;
   }
 
   #globalBlackFloorplan, #blackFloorplan {
@@ -289,7 +289,7 @@ a.aboutLink:hover {
     width: 80%;
     top: 47%;
     transform: translateY(-50%);
-    left: 17%;
+    left: 18%;
   }
 
   #globalRedFloorplan, #redFloorplan {
@@ -297,7 +297,7 @@ a.aboutLink:hover {
     width: 80%;
     top: 47%;
     transform: translateY(-50%);
-    left: 17%;
+    left: 18%;
   }
 
   #globalWhiteFloorplan, #whiteFloorplan {
@@ -305,7 +305,7 @@ a.aboutLink:hover {
     width: 80%;
     top: 47%;
     transform: translateY(-50%);
-    left: 16%;
+    left: 18%;
   }
 }
 
