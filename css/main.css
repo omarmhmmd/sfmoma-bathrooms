@@ -505,7 +505,7 @@ rect, circle, polygon {
   }
 
   .aboutParagraph {
-    font-size: 3.5vw;
+    font-size: 4vw;
     max-width: 80vw;
     top: 60%;
   }
@@ -654,7 +654,7 @@ rect, circle, polygon {
   }
 
   .list li {
-    padding-left: 12.5vw;
+    padding-left: 9.5vw;
   }
 
 }
