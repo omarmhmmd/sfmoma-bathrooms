@@ -36,7 +36,7 @@ table {
 /*********** END RESET *************/
 
 /******* BODY *******/
-html ,body {
+html, body {
   background-color: black;
   height: 100%;
   width: 100%;
@@ -113,6 +113,16 @@ section.home {
   top: 700%;
   position: absolute;
   overflow: hidden;
+}
+
+section.rotate {
+  visibility: visible;
+  height: 100%;
+  width: 100%;
+  top: 800%;
+  position: absolute;
+  overflow: hidden;
+  background-color: red;
 }
 /******** END FLOORS ********/
 
@@ -542,6 +552,24 @@ rect, circle, polygon {
   }
   100% {
       color: white;
+  }
+}
+
+@-webkit-keyframes colorchangeBackground {
+  20% {
+      background-color: #ff0000;
+  }
+  40% {
+      background-color: #00ff00;
+  }
+  60% {
+      background-color: #4C367C;
+  }
+  80% {
+      background-color: #1493A3;
+  }
+  100% {
+      background-color: white;
   }
 }
 /******** END ANIMATIONS ********/

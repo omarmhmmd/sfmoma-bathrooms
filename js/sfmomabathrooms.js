@@ -11,10 +11,16 @@ $(function() {
 
     function applyOrientation() {
       if (window.innerHeight < window.innerWidth) {
-        $('section.home').css('visibility', 'hidden');
+        $('section').css('visibility', 'hidden');
+        $('.sideNav').css('visibility', 'hidden');
+        $('.container').css('visibility', 'hidden');
+        $('html').css('animation', 'colorchangeBackground 10s infinite alternate')
       }
       else {
-        $('section.home').css('visibility', 'visible');
+        $('section').css('visibility', 'visible');
+        $('.sideNav').css('visibility', 'visible');
+        $('.container').css('visibility', 'visible');
+        $('html').css('animation', 'none')
       }
     }
     /******** MOBILE ********/

@@ -18,7 +18,7 @@ $('.hastip').tooltipsy({
     }, 500);
   },
   css: {
-      'font-family': 'Mark Pro',
+      'font-family': 'markBook',
       'font-size': '18px',
       'padding-left': '30px',
       'padding-bottom': '12px',
@@ -50,7 +50,7 @@ $('.hastipBelow').tooltipsy({
   },
   offset: [0, 30],
   css: {
-      'font-family': 'Mark Pro',
+      'font-family': 'markBook',
       'font-size': '18px',
       'padding-left': '30px',
       'padding-top': '7.75px',
@@ -82,7 +82,7 @@ $('.hastipRight').tooltipsy({
   },
   offset: [20, 0],
   css: {
-    'font-family': 'Mark Pro',
+    'font-family': 'markBook',
     'font-size': '18px',
     'padding-left': '20px',
     'padding-top': '25px',
