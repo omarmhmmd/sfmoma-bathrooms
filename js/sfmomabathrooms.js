@@ -4,6 +4,19 @@ var sideNavAnimation = 700;
 var sideNavEase = "easeInOutQuart";
 
 $(function() {
+
+    window.onresize = function (event) {
+      applyOrientation();
+    }
+
+    function applyOrientation() {
+      if (window.innerHeight < window.innerWidth) {
+        $('section.home').css('visibility', 'hidden');
+      }
+      else {
+        $('section.home').css('visited', 'visible');
+      }
+    }
     /******** MOBILE ********/
     if($(window).width() < 481) {
 

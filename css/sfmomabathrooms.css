@@ -37,6 +37,7 @@ a, a:visited, a:hover, a:active , a:focus{
   /* Safari and Chrome */
   -o-animation: fadein 2s;
   /* Opera */
+  animation: colorchange 25s infinite alternate;
   -webkit-animation: colorchange 25s infinite alternate;
   -moz-animation: colorchange 25s infinite alternate;
 }
@@ -61,6 +62,19 @@ a, a:visited, a:hover, a:active , a:focus{
 }
 
 .broom {
+  display: none;
+  font-family: 'markBlack';
+  font-style: normal;
+  line-height: normal;
+  font-size: 6vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.rotate {
   display: none;
   font-family: 'markBlack';
   font-style: normal;
@@ -154,6 +168,16 @@ a.aboutLink:hover {
   transform: translate(-50%, -50%);
 }
 /******** END ABOUT ********/
+
+.turnDeviceNotification {
+  position:fixed;
+  top: 0;
+  left:0;
+  height:100%;
+  width:100%;
+  display: none;
+  background-color: red;
+}
 
 /******** MEDIA QUERIES ********/
 @media only screen and (max-width: 480px) {
@@ -350,3 +374,23 @@ a.aboutLink:hover {
   }
 
 }
+
+/* Landscape */
+/*@media only screen
+  and (orientation: landscape) {
+    section.green, section.pink, section.blue, section.purple, section.black, section.red, section.white {
+      display: none;
+    }
+
+    .aboutParagraph, .list, .sf, .mo, .ma {
+      display: none;
+    }
+
+    .rotate {
+      display: block;
+    }
+
+    .broom {
+      visibility: hidden;
+    }
+ }*/
