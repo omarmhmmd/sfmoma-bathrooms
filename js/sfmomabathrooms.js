@@ -7,6 +7,7 @@ $(function() {
     /******** MOBILE ********/
     if($(window).width() < 481) {
 
+      screen.lockOrientation('portrait');
       $(document).bind("touchmove", function(e){
         e.preventDefault();
       });
