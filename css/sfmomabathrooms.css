@@ -157,6 +157,16 @@ a.aboutLink:hover {
 
 /******** MEDIA QUERIES ********/
 @media only screen and (max-width: 480px) {
+  .list {
+    left: -3%;
+  }
+
+  .list li {
+    left: 0%;
+    padding-left: 14vw;
+    font-size: 4vw;
+  }
+
   .broom {
     font-size: 14vw;
     top: 55%;
