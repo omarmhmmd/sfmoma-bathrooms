@@ -164,34 +164,30 @@ a.aboutLink:hover {
 
   .aboutParagraph {
     font-size: 4vw;
-    max-width: 80vw;
+    width: 80%;
     top: 60%;
   }
 
   .logo {
-    top: 50%;
-    left: 60%;
-    font-size: 5em;
-    height: 250px;
-    width: 560px;
+    font-size: 20vw;
   }
 
   .sf {
     position: absolute;
-    left: 0%;
+    left: 3.5%;
     top: 40%;
   }
 
   .mo {
     position: absolute;
-    left: 30%;
+    left: 33.5%;
     top: 40%;
   }
 
   .ma {
     position: absolute;
-    left: 60%;
-    top: 42%;
+    left: 63.5%;
+    top: 40%;
     overflow: hidden;
   }
 
