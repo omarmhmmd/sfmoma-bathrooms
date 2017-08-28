@@ -24,7 +24,7 @@ $('.hastip').tooltipsy({
       'padding-bottom': '12px',
       'max-width': '1000px',
       'color': 'white',
-      'font-style': 'oblique',
+      'font-style': 'italic',
       'background-color': 'none',
   }
 });
@@ -56,7 +56,7 @@ $('.hastipBelow').tooltipsy({
       'padding-top': '7.75px',
       'max-width': '1000px',
       'color': 'white',
-      'font-style': 'oblique',
+      'font-style': 'italic',
       'background-color': 'none',
   }
 });
@@ -88,7 +88,7 @@ $('.hastipRight').tooltipsy({
     'padding-top': '25px',
     'max-width': '2000px',
     'color': 'white',
-    'font-style': 'oblique',
+    'font-style': 'italic',
     'background-color': 'none',
   }
 
