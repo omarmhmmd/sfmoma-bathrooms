@@ -16,7 +16,7 @@ $(function() {
 
       $('.sf').delay(delayTime).animate({ top: '8%', }, aniSpeed, 'easeInOutQuart');
       $('.mo').delay(delayTime).animate({ top: '2.5%', left: '33%'}, aniSpeed, 'easeInOutQuart');
-      $('.ma').delay(delayTime).animate({ top: '14.5%', }, aniSpeed, 'easeInOutQuart');
+      $('.ma').delay(delayTime).animate({ top: '14.25%', }, aniSpeed, 'easeInOutQuart');
       $('.list').delay(1800).animate({ top: '92.5%'}, 1000, 'swing');
 
       $(".elevatorLink").click(function(){
