@@ -158,7 +158,7 @@ a.aboutLink:hover {
 /******** MEDIA QUERIES ********/
 @media only screen and (max-width: 480px) {
   .list {
-    left: -2%;
+    left: -3%;
   }
 
   .list li {
