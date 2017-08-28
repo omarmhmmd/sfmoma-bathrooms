@@ -4,7 +4,6 @@ var sideNavAnimation = 700;
 var sideNavEase = "easeInOutQuart";
 
 $(function() {
-
     /******** MOBILE ********/
     if($(window).width() < 481) {
 
@@ -15,9 +14,9 @@ $(function() {
       console.log("phone");
       //$('.broom').css('background-color', 'red');
 
-      $('.sf').delay(delayTime).animate({ top: '-45%', }, aniSpeed, 'easeInOutQuart');
-      $('.mo').delay(delayTime).animate({ top: '-60%', }, aniSpeed, 'easeInOutQuart');
-      $('.ma').delay(delayTime).animate({ top: '-31%', }, aniSpeed, 'easeInOutQuart');
+      $('.sf').delay(delayTime).animate({ top: '8%', }, aniSpeed, 'easeInOutQuart');
+      $('.mo').delay(delayTime).animate({ top: '2.5%', }, aniSpeed, 'easeInOutQuart');
+      $('.ma').delay(delayTime).animate({ top: '12.5%', }, aniSpeed, 'easeInOutQuart');
       $('.list').delay(1800).animate({ top: '92.5%'}, 1000, 'swing');
 
       $(".elevatorLink").click(function(){
@@ -37,9 +36,9 @@ $(function() {
 
     /******** DESKTOP ********/
     else {
-      $('.sf').delay(delayTime).animate({ left: '-68%', top: '-20%', "font-size":"144"}, aniSpeed, 'easeInOutQuart');
-      $('.mo').delay(delayTime).animate({ left: '50%', top: '-115%', "font-size":"144"}, aniSpeed, 'easeInOutQuart');
-      $('.ma').delay(delayTime).animate({ left: '110%', top: '135%', "font-size":"144"}, aniSpeed, 'easeInOutQuart');
+      $('.sf').delay(delayTime).animate({ left: '-1.5%', top: '25%', "font-size":"11vw"}, aniSpeed, 'easeInOutQuart');
+      $('.mo').delay(delayTime).animate({ left: '50%', top: '-9%', "font-size":"11vw"}, aniSpeed, 'easeInOutQuart');
+      $('.ma').delay(delayTime).animate({ left: '76.5%', top: '81%', "font-size":"11vw"}, aniSpeed, 'easeInOutQuart');
       $('.list').delay(3000).animate({ top: '88.5%'}, 1000, 'swing');
 
       $(".elevatorLink").click(function(){
@@ -55,7 +54,9 @@ $(function() {
         }
         $(this).toggleClass('elevatorActive');
      });
-    }
+   }
+
+
 
     $(".aboutButton").click(function(){
       if($(".aboutParagraph").is(":visible")) {

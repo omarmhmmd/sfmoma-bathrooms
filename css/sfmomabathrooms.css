@@ -26,15 +26,10 @@ a, a:visited, a:hover, a:active , a:focus{
   font-family:'markBlack';
   font-style: normal;
   line-height: normal;
-  font-size: 6.25em;
+  font-size: 7.75vw;
   text-transform: uppercase;
   color: white;
   background-color: none;
-  height: 250px;
-  width: 560px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   animation: fadein 2s;
   -moz-animation: fadein 2s;
   /* Firefox */
@@ -48,22 +43,21 @@ a, a:visited, a:hover, a:active , a:focus{
 
 .sf {
   position: absolute;
-  left: 55px;
-  top: 60px;
+  left: 32.5%;
+  top: 40.5%;
 }
 
 .mo {
   position: absolute;
-  left: 195px;
-  top: 15px;
+  left: 43.5%;
+  top: 34.5%;
 }
 
 .ma {
   position: absolute;
-  left: 320px;
-  top: 100px;
+  left: 53%;
+  top: 46.5%;
   overflow: hidden;
-  z-index: -10;
 }
 
 .broom {
@@ -71,7 +65,7 @@ a, a:visited, a:hover, a:active , a:focus{
   font-family: 'markBlack';
   font-style: normal;
   line-height: normal;
-  font-size: 5em;
+  font-size: 6vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -97,7 +91,7 @@ a, a:visited, a:hover, a:active , a:focus{
   font-style: normal;
   font-weight: normal;
   line-height: normal;
-  font-size: 1em;
+  font-size: 1.25vw;
   color: white;
   left: 2%;
   top: 100%;
@@ -149,8 +143,8 @@ a.aboutLink:hover {
   font-style: normal;
   font-weight: normal;
   line-height: normal;
-  font-size: 1em;
-  width: 475px;
+  font-size: 1.25vw;
+  width: 35%;
   display: none;
   background-color: none;
   color: white;
@@ -184,34 +178,48 @@ a.aboutLink:hover {
 
   .sf {
     position: absolute;
-    left: 60px;
-    top: 60px;
+    left: 7%;
+    top: 40%;
   }
 
   .mo {
     position: absolute;
-    left: 180px;
-    top: 25px;
+    left: 37%;
+    top: 40%;
   }
 
   .ma {
     position: absolute;
-    left: 290px;
-    top: 98px;
+    left: 65%;
+    top: 40%;
     overflow: hidden;
-    z-index: -10;
   }
 
-  .list {
-    width: 100vw;
-    left: -5%;
-    position: absolute;
-    top:100%;
+  .sideNav {
+    position: fixed;
+    right:100%;
+    width: 50px;
+    height: 100vh;
+    background-color: black;
+    border-right: 1px solid #ffffff;
+    z-index: 10;
   }
 
-  .list li {
-    padding-left: 15vw;
+  .sideNav ul {
+    padding-top: 3vh;
   }
+
+  .sideNav li {
+    text-align: center;
+    padding-bottom: 7vh;
+    font-family: 'markBlack';
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+    color: white;
+  }
+
 
   .level {
     width: 375px;
