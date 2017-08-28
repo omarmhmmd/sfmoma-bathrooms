@@ -14,7 +14,7 @@ $(function() {
         $('section.home').css('visibility', 'hidden');
       }
       else {
-        $('section.home').css('visited', 'visible');
+        $('section.home').css('visibility', 'visible');
       }
     }
     /******** MOBILE ********/
