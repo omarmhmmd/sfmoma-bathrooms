@@ -12,12 +12,14 @@ $(function() {
     function applyOrientation() {
       if (window.innerHeight < window.innerWidth) {
         $('section').css('visibility', 'hidden');
+        $('svg').css('visibility', 'hidden');
         $('.sideNav').css('visibility', 'hidden');
         $('.container').css('visibility', 'hidden');
         $('html').css('animation', 'colorchangeBackground 10s infinite alternate')
       }
       else {
         $('section').css('visibility', 'visible');
+        $('svg').css('visibility', 'visible');
         $('.sideNav').css('visibility', 'visible');
         $('.container').css('visibility', 'visible');
         $('html').css('animation', 'none')
