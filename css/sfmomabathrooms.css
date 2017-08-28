@@ -181,6 +181,11 @@ a.aboutLink:hover {
 
 /******** MEDIA QUERIES ********/
 @media only screen and (max-width: 480px) {
+  rect {
+    width: 80px;
+    height:80px;
+  }
+
   .list {
     left: -3%;
   }
