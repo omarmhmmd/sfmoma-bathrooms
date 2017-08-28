@@ -178,19 +178,19 @@ a.aboutLink:hover {
 
   .sf {
     position: absolute;
-    left: 5%;
+    left: 0%;
     top: 40%;
   }
 
   .mo {
     position: absolute;
-    left: 35%;
+    left: 30%;
     top: 40%;
   }
 
   .ma {
     position: absolute;
-    left: 65%;
+    left: 60%;
     top: 42%;
     overflow: hidden;
   }
