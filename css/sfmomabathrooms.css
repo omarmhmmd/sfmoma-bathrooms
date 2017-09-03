@@ -75,6 +75,7 @@ a, a:visited, a:hover, a:active , a:focus{
   color: white;
 }
 
+/******** STORE ********/
 .zinePic {
   background-color: none;
   height: auto;
@@ -140,7 +141,7 @@ form button:active {
  #thankyou_message {
    background-color: none;
  }
-
+/******** END STORE ********/
 .rotate {
   display: none;
   font-family: 'markBlack';
@@ -268,6 +269,64 @@ a.aboutLink:hover {
     width: 80%;
     top: 60%;
   }
+
+/******** STORE ********/
+  .zinePic {
+    padding-top: 0%;
+    padding-left: 50%;
+    width: 150%;
+    height: auto;
+    font-size: 4vw;
+  }
+
+  .mobileNoShow {
+    display: none;
+  }
+
+  .zinePic img {
+    width: 40%;
+  }
+
+  .zineContent {
+    padding-top: 0px;
+    display: inline-block;
+  }
+
+  .zineContent input {
+    width: 225px;
+  }
+
+  .zinePic h1 {
+    font-size: 4.25vw;
+  }
+
+  #email {
+    width: 75%;
+  }
+
+  input, textarea {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  textarea {
+    height: 70px;
+  }
+
+  form button {
+    margin-top: 12px;
+    padding: 5px 10px 5px 10px;
+  }
+
+  form button:active {
+    margin-top: 8px;
+  }
+  /******** END STORE ********/
+
+   #thankyou_message {
+     background-color: none;
+   }
 
   .logo {
     font-size: 20vw;
