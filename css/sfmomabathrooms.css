@@ -249,30 +249,10 @@ a.aboutLink:hover {
 
 /******** MEDIA QUERIES ********/
 @media only screen and (max-width: 480px) {
-  .list {
-    left: -3%;
-  }
-
-  .list li {
-    left: 0%;
-    padding-left: 10.5vw;
-    font-size: 4vw;
-  }
-
-  .broom {
-    font-size: 14vw;
-    top: 55%;
-  }
-
-  .aboutParagraph {
-    font-size: 4vw;
-    width: 80%;
-    top: 60%;
-  }
-
 /******** STORE ********/
   .zinePic {
-    padding-top: 0%;
+    z-index: -1;
+    padding-top: 60%;
     padding-left: 50%;
     width: 150%;
     height: auto;
@@ -304,28 +284,34 @@ a.aboutLink:hover {
     width: 100%;
   }
 
-  input, textarea {
-    margin-top: 8px;
-    margin-bottom: 15px;
-    display: block;
-  }
-
-  textarea {
-    height: 70px;
-  }
-
-  form button {
-    margin-top: 12px;
-    padding: 5px 10px 5px 10px;
-  }
-
-  form button:active {
-    margin-top: 8px;
+  form {
+    visibility: hidden;
   }
   /******** END STORE ********/
 
    #thankyou_message {
      background-color: none;
+   }
+
+   .list {
+     left: -3%;
+   }
+
+   .list li {
+     left: 0%;
+     padding-left: 10.5vw;
+     font-size: 4vw;
+   }
+
+   .broom {
+     font-size: 14vw;
+     top: 55%;
+   }
+
+   .aboutParagraph {
+     font-size: 4vw;
+     width: 80%;
+     top: 60%;
    }
 
   .logo {

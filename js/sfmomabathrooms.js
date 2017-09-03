@@ -53,6 +53,8 @@ $(function() {
         }
         $(this).toggleClass('elevatorActive');
      });
+
+     document.getElementById("orderOnDesktop").innerHTML = "Visit desktop site to order";
     }
 
     /******** DESKTOP ********/
