@@ -43,6 +43,7 @@ a, a:visited, a:hover, a:active , a:focus{
 }
 
 .sf {
+  z-index: 1;
   position: absolute;
   left: 32.5%;
   top: 40.5%;
@@ -73,6 +74,72 @@ a, a:visited, a:hover, a:active , a:focus{
   transform: translate(-50%, -50%);
   color: white;
 }
+
+.zinePic {
+  background-color: none;
+  height: auto;
+  font-family: 'markBook';
+  color: white;
+  width: 100%;
+  padding-left: 25%;
+  height: auto;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.zinePic img {
+  width: 29%;
+  animation: colorchangeBorder 10s infinite alternate;
+  -webkit-animation: colorchangeBorder 10s infinite alternate;
+  -moz-animation: colorchangeBorder 10s infinite alternate;
+}
+
+.zineContent {
+  padding-top: 0px;
+}
+
+.zineContent input {
+  font-family: 'markBlack';
+  color: black;
+  width: 225px;
+}
+
+.zinePic h1 {
+  font-family: 'markBlack';
+  font-size: 2.25vw;
+}
+
+input, textarea {
+  margin-top: 8px;
+  margin-bottom: 15px;
+  font-family: 'markBlack';
+  color: black;
+  display: block;
+}
+
+textarea {
+  height: 70px;
+}
+
+form button {
+  margin-top: 12px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 0px;
+  animation: colorchangeButton 10s infinite alternate;
+  -webkit-animation: colorchangeButton 10s infinite alternate;
+  -moz-animation: colorchangeButton 10s infinite alternate;
+}
+
+form button:active {
+  margin-top: 8px;
+}
+
+ #thankyou_message {
+   background-color: green;
+ }
 
 .rotate {
   display: none;
@@ -138,7 +205,7 @@ button.elevatorLink:hover, .elevatorActive {
 /******** END ELEVATOR ********/
 
 /******** ZINE ********/
-button.zineLink:hover {
+button.zineButton:hover, .zineButtonActive {
   color: #00ff00;
 }
 /******** END ZINE ********/

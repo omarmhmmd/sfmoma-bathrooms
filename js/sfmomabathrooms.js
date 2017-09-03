@@ -77,7 +77,21 @@ $(function() {
      });
    }
 
-
+    $(".zineButton").click(function(){
+      if($(".zinePic").is(":visible")) {
+        setTimeout(function () {
+          $(".broom").slideToggle(750);}, 800
+        );
+        $(".zinePic").slideToggle(1000);
+      }
+      else {
+      setTimeout(function () {
+        $(".zinePic").slideToggle(1000);}, 800
+      );
+        $(".broom").slideToggle(1000).removeClass("loadBroom");
+      }
+      $(this).toggleClass('zineButtonActive');
+    });
 
     $(".aboutButton").click(function(){
       if($(".aboutParagraph").is(":visible")) {

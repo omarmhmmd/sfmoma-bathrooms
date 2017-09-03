@@ -1025,7 +1025,7 @@
     <div class="list">
       <ul>
         <li><button class="elevatorLink" class="noPadLeft" type="button" name="button">elevator</button></li>
-        <li><button class="zineLink" class="padLeft" href="#">zine</button></li>
+        <li><button class="zineButton" class="padLeft" href="#">zine</button></li>
         <li><button class="aboutButton" class="padLeft" type="button" name="button">about</button></li>
       </ul>
     </div>
@@ -1045,6 +1045,57 @@
     </a>
 
     <div class="broom"><a class="bathroomLink">bathrooms</a></div>
+
+    <div class = "zinePic">
+      <img style="float: left; margin: 0px 25px 15px 0px;"src="images/zine.png" width="100" />
+      <div class="zineContent">
+        <h1>SFMOMA bathrooms</h1>
+        <br>
+        <p>A print publication</p>
+        <br>
+        <p>5.5" x 8.5" / 32 pages</p>
+        <br>
+        <p>$0.00 / Free while supplies last </p>
+        <br>
+      <form id="gform" method="POST" class="pure-form pure-form-stacked"
+      action="https://script.google.com/macros/s/AKfycby3Fwg-f6iVaXkLAttjZVlZgyac51GRCrB30l5BWhJXxY4-HwE/exec">
+      <!-- change the form action to your script url -->
+
+        <fieldset class="pure-group">
+          <label for="name">Name: </label>
+          <input id="name" name="name" placeholder="" />
+        </fieldset>
+
+        <fieldset class="pure-group">
+          <label for="message">Address: </label>
+          <textarea id="message" name="message" rows="10"
+          placeholder=""></textarea>
+        </fieldset>
+
+        <fieldset class="pure-group">
+          <label for="email">Email Address:</label>
+          <input id="email" name="email" type="email" value=""
+          required placeholder=""/>
+          <span id="email-invalid" style="display:none">
+          Must be a valid email address</span>
+        </fieldset>
+
+
+        <button>Buy</button>
+
+      </form>
+
+      <div style="display:none;" id="thankyou_message">
+        <p>Thank you for supporting SFMOMA bathrooms!</p><br>
+        <p>Zines are also available inside the bathrooms</p>
+        <p style="margin-top: 5px;">at the museum if they are sold out online.</p>
+      </div>
+
+
+      </div>
+    </div>
+
+
   </section>
   <!-- End Home -->
 
@@ -1058,8 +1109,10 @@
   <script src="lib/tooltipsy.min.js"></script>
   <script src="js/hasTip.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="http://localhost:35729/livereload.js">
-  </script>
+  <script src="http://localhost:35729/livereload.js"></script>
+  <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+
 
 
 </body>
