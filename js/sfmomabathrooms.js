@@ -83,14 +83,12 @@ $(function() {
 
     $(".zineButton").click(function() {
       if($(".zinePic").is(":visible")) {
-        $('.level').css('visibility', 'hidden');
         setTimeout(function () {
           $(".broom").slideToggle(750);}, 1100
         );
         $(".zinePic").slideToggle(1000);
       }
       else {
-        $('.level').css('visibility', 'visible');
         setTimeout(function () {
           $(".zinePic").slideToggle(1000);}, 800
         );
