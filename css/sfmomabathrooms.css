@@ -297,7 +297,7 @@ a.aboutLink:hover {
 
    .list {
      width: 100%;
-     left: -6%;
+     left: -7%;
      animation: colorchangeBorderTop 25s infinite alternate;
      -webkit-animation: colorchangeBorderTop 25s infinite alternate;
      -moz-animation: colorchangeBorderTop 25s infinite alternate;
@@ -305,7 +305,6 @@ a.aboutLink:hover {
 
    .list li {
      background-color: none;
-     left: -2.5%;
      padding: 0;
      margin: 0;
      padding-left: 15.5vw;
