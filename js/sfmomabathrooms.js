@@ -16,8 +16,10 @@ $(function() {
         $('.sideNav').css('visibility', 'hidden');
         $('.container').css('visibility', 'hidden');
         $('html').css('animation', 'colorchangeBackground 10s infinite alternate')
+        $('.level').css('visibility', 'hidden');
       }
       else {
+        $('.level').css('visibility', 'visible');
         $('section').css('visibility', 'visible');
         $('svg').css('visibility', 'visible');
         $('.sideNav').css('visibility', 'visible');
