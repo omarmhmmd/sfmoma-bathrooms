@@ -231,7 +231,7 @@ carousel-control.left, .carousel-control.right {
 
 /******* CONTENT *******/
 .level {
-  visibility: hidden;
+  visibility: visible;
   position: relative;
   width: 375px;
   height: 122px;
