@@ -66,7 +66,7 @@ $(function() {
       $('.list').delay(3000).animate({ top: '88.5%'}, 1000, 'swing');
 
       $(".elevatorLink").click(function(){
-        $(".level").css('visibility', 'hidden');
+        $(".level").css('visibility', 'visible');
         $(".container").css('visibility', 'visible');
         var x = $(".sideNav").position();
         if (x.left == -50) {
