@@ -80,7 +80,6 @@ $(function() {
    }
 
     $(".zineButton").click(function() {
-      $(".level").css('visibility', 'hidden');
       if($(".zinePic").is(":visible")) {
         setTimeout(function () {
           $(".broom").slideToggle(750);}, 1100

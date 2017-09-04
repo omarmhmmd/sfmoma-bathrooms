@@ -12,7 +12,6 @@ $(function() {
 
   // jQuery for page scrolling feature - requires jQuery Easing plugin
   $(document).on('click', 'a.green, a.pink, a.blue, a.purple, a.black, a.red, a.white, a.home', function(event) {
-    $(".level").css('visibility', 'visible');
     if($(window).width() < 481) {
       $('.container').css('top', '115%');
     }
