@@ -83,12 +83,14 @@ $(function() {
 
     $(".zineButton").click(function() {
       if($(".zinePic").is(":visible")) {
+        document.getElementById("abtBut").disabled = false;
         setTimeout(function () {
           $(".broom").slideToggle(750);}, 1100
         );
         $(".zinePic").slideToggle(1000);
       }
       else {
+        document.getElementById("abtBut").disabled = true;
         setTimeout(function () {
           $(".zinePic").slideToggle(1000);}, 800
         );
@@ -99,12 +101,14 @@ $(function() {
 
     $(".aboutButton").click(function() {
       if($(".aboutParagraph").is(":visible")) {
+        document.getElementById("zineBut").disabled = false;
         setTimeout(function () {
           $(".broom").slideToggle(750);}, 800
         );
         $(".aboutParagraph").slideToggle(1000);
       }
       else {
+        document.getElementById("zineBut").disabled = true;
         setTimeout(function () {
            $(".aboutParagraph").slideToggle(1000);}, 800
         );
