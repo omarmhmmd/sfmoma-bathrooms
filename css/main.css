@@ -231,6 +231,7 @@ carousel-control.left, .carousel-control.right {
 
 /******* CONTENT *******/
 .level {
+  z-index: -1;
   position: relative;
   width: 375px;
   height: 122px;
