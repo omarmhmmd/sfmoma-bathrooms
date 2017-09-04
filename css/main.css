@@ -60,6 +60,7 @@ section {
 }
 
 section.green {
+  z-index: 1;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -231,7 +232,8 @@ carousel-control.left, .carousel-control.right {
 
 /******* CONTENT *******/
 .level {
-  visibility: visible;
+  visibility: hidden;
+  z-index: -1;
   position: relative;
   width: 375px;
   height: 122px;

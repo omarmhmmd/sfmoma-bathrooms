@@ -79,7 +79,8 @@ $(function() {
      });
    }
 
-    $(".zineButton").click(function(){
+    $(".zineButton").click(function() {
+      $(".level").css('visibility', 'hidden');
       if($(".zinePic").is(":visible")) {
         setTimeout(function () {
           $(".broom").slideToggle(750);}, 1100
@@ -87,15 +88,15 @@ $(function() {
         $(".zinePic").slideToggle(1000);
       }
       else {
-      setTimeout(function () {
-        $(".zinePic").slideToggle(1000);}, 800
-      );
+        setTimeout(function () {
+          $(".zinePic").slideToggle(1000);}, 800
+        );
         $(".broom").slideToggle(1000).removeClass("loadBroom");
       }
       $(this).toggleClass('zineButtonActive');
     });
 
-    $(".aboutButton").click(function(){
+    $(".aboutButton").click(function() {
       if($(".aboutParagraph").is(":visible")) {
         setTimeout(function () {
           $(".broom").slideToggle(750);}, 800
@@ -111,8 +112,6 @@ $(function() {
       $(this).toggleClass('buttonActive');
    });
   /******** END DESKTOP ********/
-
-
 });
 
 setTimeout(function () {
