@@ -252,7 +252,7 @@ a.aboutLink:hover {
 /******** STORE ********/
   .zinePic {
     z-index: -1;
-    padding-top: 60%;
+    padding-top: 50%;
     padding-left: 50%;
     width: 150%;
     height: auto;
@@ -264,7 +264,9 @@ a.aboutLink:hover {
   }
 
   .zinePic img {
-    width: 40%;
+    width: 45%;
+    animation: none;
+    border: 1px solid red;
   }
 
   .zineContent {
