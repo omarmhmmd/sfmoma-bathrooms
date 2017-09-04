@@ -85,7 +85,7 @@ $(function() {
       $(".level").css('visibility', 'hidden');
       if($(".zinePic").is(":visible")) {
         setTimeout(function () {
-          $(".broom").slideToggle(750);}, 800
+          $(".broom").slideToggle(750);}, 1100
         );
         $(".zinePic").slideToggle(1000);
       }

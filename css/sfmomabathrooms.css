@@ -86,7 +86,7 @@ a, a:visited, a:hover, a:active , a:focus{
   height: auto;
   display: none;
   position: absolute;
-  top: 50%;
+  top: 52.5%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -305,6 +305,11 @@ a.aboutLink:hover {
      padding: 0;
      padding-left: 15.5vw;
      font-size: 4vw;
+   }
+
+   .list li .padMiddle {
+     padding-left: 100vw;
+     padding-right: 100vw;
    }
 
    .broom {
