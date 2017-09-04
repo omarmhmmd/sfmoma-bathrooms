@@ -50,6 +50,7 @@ a, a:visited, a:hover, a:active , a:focus{
 }
 
 .mo {
+  z-index: 1;
   position: absolute;
   left: 43.5%;
   top: 34.5%;
