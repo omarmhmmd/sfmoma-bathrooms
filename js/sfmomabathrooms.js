@@ -41,6 +41,7 @@ $(function() {
       $('.list').delay(1800).animate({ top: '92.5%'}, 1000, 'swing');
 
       $(".elevatorLink").click(function(){
+        $(".level").css('visibility', 'visible');
         $(".container").css('visibility', 'visible');
         var x = $(".sideNav").position();
         if (x.left == -50) {
@@ -65,6 +66,7 @@ $(function() {
       $('.list').delay(3000).animate({ top: '88.5%'}, 1000, 'swing');
 
       $(".elevatorLink").click(function(){
+        $(".level").css('visibility', 'visible');
         $(".container").css('visibility', 'visible');
         var x = $(".sideNav").position();
         if (x.left == -50) {
