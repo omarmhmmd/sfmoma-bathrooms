@@ -141,6 +141,23 @@ section.rotate {
   padding-top: 6vh;
 }
 
+.portfolioLinks {
+  text-align: right;
+  float:right;
+  font-family: 'markBook';
+  font-size: 1.05vw;
+}
+
+.portfolioLinks a:hover {
+  color: #00ff00;
+}
+
+.instagram {
+  animation: colorchange 10s infinite alternate;
+  -webkit-animation: colorchange 10s infinite alternate;
+  -moz-animation: colorchange 10s infinite alternate;
+}
+
 .sideNav li {
   text-align: center;
   padding-bottom: 9vh;

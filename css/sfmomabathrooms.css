@@ -1,5 +1,13 @@
 /******** MAIN BODY ********/
 @font-face {
+  font-family: 'mark';
+  src: local('markBlack'),
+    url('../fonts/MarkPro-Black.woff') format('woff'),
+    url('../fonts/MarkPro-Black.ttf') format('truetype'),
+    url('../fonts/MarkPro-Black.eot') format('embedded-opentype');
+}
+
+@font-face {
   font-family: 'markBlack';
   src: local('markBlack'),
     url('../fonts/MarkPro-Black.woff') format('woff'),
@@ -320,6 +328,10 @@ a.aboutLink:hover {
      font-size: 4vw;
      width: 80%;
      top: 60%;
+   }
+
+   .portfolioLinks {
+     font-size: 3vw;
    }
 
   .logo {
