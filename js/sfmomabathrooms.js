@@ -29,9 +29,6 @@ $(function() {
     }
     /******** MOBILE ********/
     if($(window).width() < 481) {
-
-      $('.portfolioLinks').css('visibility', 'hidden');
-      $('.aboutParagraph').css('z-index', '1');
       $(document).bind("touchmove", function(e){
         e.preventDefault();
       });

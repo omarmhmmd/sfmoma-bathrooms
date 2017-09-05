@@ -332,6 +332,7 @@ a.aboutLink:hover {
 
    .portfolioLinks {
      font-size: 3vw;
+     visibility: hidden;
    }
 
   .logo {
@@ -355,6 +356,7 @@ a.aboutLink:hover {
     left: 63.5%;
     top: 40%;
     overflow: hidden;
+    z-index: -1;
   }
 
   .sideNav {
