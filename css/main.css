@@ -258,7 +258,7 @@ carousel-control.left, .carousel-control.right {
   line-height: normal;
   font-size: 70px;
   text-transform: capitalize;
-  color: none;
+  color: black;
 }
 
 .floor {
