@@ -610,20 +610,23 @@ rect, circle, polygon {
 }
 
 @-webkit-keyframes colorchangeBackground {
+  0% {
+      background-color: #ff0000;
+  }
   20% {
-      background-color: : #ff0000;
+      background-color: #00ff00;
   }
   40% {
-      background-color: : #00ff00;
+      background-color: #4C367C;
   }
   60% {
-      background-color: : #4C367C;
+      background-color: #1493A3;
   }
   80% {
-      background-color: : #1493A3;
+      background-color: #F45F8F;
   }
   100% {
-      background-color: : #F45F8F;
+      background-color: white;
   }
 }
 /******** END ANIMATIONS ********/
