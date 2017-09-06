@@ -36,6 +36,10 @@ $(function() {
       console.log("phone");
       //$('.broom').css('background-color', 'red');
 
+      $(".zineButton").click(function() {
+          $(".level").css('visibility', 'hidden');
+      });
+
       $('.sf').delay(delayTime).animate({ top: '8%', }, aniSpeed, 'easeInOutQuart');
       $('.mo').delay(delayTime).animate({ top: '2.5%', left: '33%'}, aniSpeed, 'easeInOutQuart');
       $('.ma').delay(delayTime).animate({ top: '14.25%', }, aniSpeed, 'easeInOutQuart');

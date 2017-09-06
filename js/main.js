@@ -16,6 +16,8 @@ $(function() {
       $('.container').css('top', '115%');
     }
 
+    $(".level").css('visibility', 'visible');
+
     $("#globalGreenFloorplan").empty();
     $("#globalPinkFloorplan").empty();
     $("#globalBlueFloorplan").empty();
