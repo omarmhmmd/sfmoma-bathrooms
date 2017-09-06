@@ -556,44 +556,38 @@ rect, circle, polygon {
 }
 
 @-webkit-keyframes colorchange {
-  0% {
+  20% {
       color: #ff0000;
   }
-  20% {
+  40% {
       color: #00ff00;
   }
-  40% {
+  60% {
       color: #4C367C;
   }
-  60% {
+  80% {
       color: #1493A3;
   }
-  80% {
-      color: #F45F8F;
-  }
   100% {
-      color: white;
+      color: #F45F8F;
   }
 }
 
 @-webkit-keyframes colorchangeBorder {
-  0% {
+  20% {
     border-color: #ff0000;
   }
-  20% {
+  40% {
     border-color: #00ff00;
   }
-  40% {
+  60% {
     border-color:  #4C367C;
   }
-  60% {
+  80% {
     border-color: #1493A3;
   }
-  80% {
-    border-color: #F45F8F;
-  }
   100% {
-    border-color: white;
+    border-color: #F45F8F;
   }
 }
 
@@ -616,23 +610,20 @@ rect, circle, polygon {
 }
 
 @-webkit-keyframes colorchangeBackground {
-  0% {
+  20% {
       background-color: : #ff0000;
   }
-  20% {
+  40% {
       background-color: : #00ff00;
   }
-  40% {
+  60% {
       background-color: : #4C367C;
   }
-  60% {
+  80% {
       background-color: : #1493A3;
   }
-  80% {
-      background-color: : #F45F8F;
-  }
   100% {
-      background-color: : white;
+      background-color: : #F45F8F;
   }
 }
 /******** END ANIMATIONS ********/
