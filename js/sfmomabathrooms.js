@@ -58,7 +58,7 @@ $(function() {
 
      $(".zineButton").click(function() {
        $(".level").css('visibility', 'hidden');
-      }
+      });
 
      document.getElementById("orderOnDesktop").innerHTML = "Visit desktop site to order";
     }
