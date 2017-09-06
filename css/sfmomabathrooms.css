@@ -102,6 +102,7 @@ a, a:visited, a:hover, a:active , a:focus{
 
 .zinePic img {
   width: 29%;
+  border: 1px solid #ff0000;
   animation: colorchangeBorder 10s infinite alternate;
   -webkit-animation: colorchangeBorder 10s infinite alternate;
   -moz-animation: colorchangeBorder 10s infinite alternate;
@@ -137,10 +138,11 @@ textarea {
 form button {
   margin-top: 12px;
   padding: 5px 10px 5px 10px;
+  border: 1px solid #ff0000;
   border-radius: 0px;
-  animation: colorchangeButton 10s infinite alternate;
-  -webkit-animation: colorchangeButton 10s infinite alternate;
-  -moz-animation: colorchangeButton 10s infinite alternate;
+  animation: colorchangeBorder 10s infinite alternate;
+  -webkit-animation: colorchangeBorder 10s infinite alternate;
+  -moz-animation: colorchangeBorder 10s infinite alternate;
 }
 
 form button:active {

@@ -575,22 +575,22 @@ rect, circle, polygon {
 
 @-webkit-keyframes colorchangeBorder {
   0% {
-    border: 1px solid #ff0000;
+    border-color: #ff0000;
   }
   20% {
-    border: 1px solid #ff0000;
+    border-color: #ff0000;
   }
   40% {
-      border: 1px solid #00ff00;
+    border-color:  #00ff00;
   }
   60% {
-      border: 1px solid #4C367C;
+    border-color: #4C367C;
   }
   80% {
-      border: 1px solid #1493A3;
+    border-color: #1493A3;
   }
   100% {
-      border: 1px solid white;
+    border-color: white;
   }
 }
 
@@ -609,27 +609,6 @@ rect, circle, polygon {
   }
   100% {
     border-top: 1px solid white;
-  }
-}
-
-@-webkit-keyframes colorchangeButton {
-  0% {
-    border: 1px solid #ff0000;
-  }
-  20% {
-    border: 1px solid #ff0000;
-  }
-  40% {
-      border: 1px solid #00ff00;
-  }
-  60% {
-      border: 1px solid #4C367C;
-  }
-  80% {
-      border: 1px solid #1493A3;
-  }
-  100% {
-      border: 1px solid white;
   }
 }
 
