@@ -248,7 +248,7 @@ carousel-control.left, .carousel-control.right {
 
 /******* CONTENT *******/
 .level {
-  visibility: hidden;
+  visibility: visible;
   position: relative;
   width: 375px;
   height: 122px;
@@ -258,7 +258,7 @@ carousel-control.left, .carousel-control.right {
   line-height: normal;
   font-size: 70px;
   text-transform: capitalize;
-  color: black;
+  color: none;
 }
 
 .floor {
