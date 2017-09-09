@@ -148,8 +148,12 @@ section.rotate {
   font-size: 1.05vw;
 }
 
-.portfolioLinks a:hover {
+.portfolioLinks a.omar:hover {
   color: #00ff00;
+}
+
+.portfolioLinks a:hover {
+  color: #ff0000;
 }
 
 .instagram {
